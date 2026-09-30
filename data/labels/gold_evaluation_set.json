@@ -1,0 +1,5428 @@
+[
+  {
+    "id": "GOLD-001",
+    "text": "Water is bubbling up near the bus stop opposite City Hospital on MG Road, been there since morning, road is getting slippery.",
+    "category": "water_leak",
+    "severity": 3,
+    "urgency": "expedited",
+    "linked_asset_id": "WM-0042",
+    "entities": [
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 47,
+        "end": 60
+      },
+      {
+        "text": "MG Road",
+        "label": "STREET",
+        "start": 64,
+        "end": 71
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "bubbling up",
+        "label": "DEFECT",
+        "start": 9,
+        "end": 20
+      },
+      {
+        "text": "since morning",
+        "label": "DATE/TIME",
+        "start": 84,
+        "end": 97
+      },
+      {
+        "text": "slippery",
+        "label": "SEVERITY_CUE",
+        "start": 115,
+        "end": 123
+      }
+    ]
+  },
+  {
+    "id": "GOLD-002",
+    "text": "Uneven pavement and crumbling surface on Central Cross for 200 meters.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "surface on Central Cross",
+        "label": "STREET",
+        "start": 30,
+        "end": 54
+      },
+      {
+        "text": "200 meters",
+        "label": "MEASUREMENT",
+        "start": 59,
+        "end": 69
+      }
+    ]
+  },
+  {
+    "id": "GOLD-003",
+    "text": "Expansion joint rattling loudly on Station Road flyover near City Hospital.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "loudly on Station Road",
+        "label": "STREET",
+        "start": 25,
+        "end": 47
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 61,
+        "end": 74
+      }
+    ]
+  },
+  {
+    "id": "GOLD-004",
+    "text": "Huge pipe burst on Station Road, houses losing pressure and street submerged.",
+    "category": "pipe_burst",
+    "severity": 4,
+    "urgency": "emergency",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "burst on Station Road",
+        "label": "STREET",
+        "start": 10,
+        "end": 31
+      },
+      {
+        "text": "losing pressure and street",
+        "label": "STREET",
+        "start": 40,
+        "end": 66
+      }
+    ]
+  },
+  {
+    "id": "GOLD-005",
+    "text": "Pedestrian ramp shattered on Central Cross opposite Central Park.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "shattered on Central Cross",
+        "label": "STREET",
+        "start": 16,
+        "end": 42
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 52,
+        "end": 64
+      }
+    ]
+  },
+  {
+    "id": "GOLD-006",
+    "text": "Entire stretch of Central Cross in pitch darkness, 4 street lights completely out.",
+    "category": "streetlight_outage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "stretch of Central Cross",
+        "label": "STREET",
+        "start": 7,
+        "end": 31
+      },
+      {
+        "text": "dark",
+        "label": "DEFECT",
+        "start": 41,
+        "end": 45
+      },
+      {
+        "text": "4 street",
+        "label": "STREET",
+        "start": 51,
+        "end": 59
+      }
+    ]
+  },
+  {
+    "id": "GOLD-007",
+    "text": "Large sinkhole opening up on Park Avenue opposite Central Park, police barricaded.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "sinkhole",
+        "label": "DEFECT",
+        "start": 6,
+        "end": 14
+      },
+      {
+        "text": "up on Park Avenue",
+        "label": "STREET",
+        "start": 23,
+        "end": 40
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 50,
+        "end": 62
+      }
+    ]
+  },
+  {
+    "id": "GOLD-008",
+    "text": "Deep pothole on Central Cross rim broken yesterday evening.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pothole on Central Cross",
+        "label": "STREET",
+        "start": 5,
+        "end": 29
+      },
+      {
+        "text": "yesterday",
+        "label": "DATE/TIME",
+        "start": 41,
+        "end": 50
+      }
+    ]
+  },
+  {
+    "id": "GOLD-009",
+    "text": "Culvert blocked near Central Park on Station Road, road submerged under 1 foot of water.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Culvert",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 21,
+        "end": 33
+      },
+      {
+        "text": "Station Road",
+        "label": "STREET",
+        "start": 37,
+        "end": 49
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 51,
+        "end": 55
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 82,
+        "end": 87
+      }
+    ]
+  },
+  {
+    "id": "GOLD-010",
+    "text": "Culvert blocked near Metro Station on Market Street, road submerged under 1 foot of water.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Culvert",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 21,
+        "end": 34
+      },
+      {
+        "text": "Market Street",
+        "label": "STREET",
+        "start": 38,
+        "end": 51
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 53,
+        "end": 57
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 84,
+        "end": 89
+      }
+    ]
+  },
+  {
+    "id": "GOLD-011",
+    "text": "Monsoon runoff unable to drain into storm catchbasin on Market Street.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "catchbasin on Market Street",
+        "label": "STREET",
+        "start": 42,
+        "end": 69
+      }
+    ]
+  },
+  {
+    "id": "GOLD-012",
+    "text": "Huge pothole on Park Avenue right in front of Metro Station, multiple two wheelers damaged.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pothole on Park Avenue",
+        "label": "STREET",
+        "start": 5,
+        "end": 27
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 46,
+        "end": 59
+      }
+    ]
+  },
+  {
+    "id": "GOLD-013",
+    "text": "Huge pothole on Hospital Road right in front of Metro Station, multiple two wheelers damaged.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pothole on Hospital Road",
+        "label": "STREET",
+        "start": 5,
+        "end": 29
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 48,
+        "end": 61
+      }
+    ]
+  },
+  {
+    "id": "GOLD-014",
+    "text": "Concrete spalling and rebar exposed under Station Road bridge deck.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "spalling",
+        "label": "DEFECT",
+        "start": 9,
+        "end": 17
+      },
+      {
+        "text": "exposed under Station Road",
+        "label": "STREET",
+        "start": 28,
+        "end": 54
+      },
+      {
+        "text": "bridge",
+        "label": "ASSET_TYPE",
+        "start": 55,
+        "end": 61
+      }
+    ]
+  },
+  {
+    "id": "GOLD-015",
+    "text": "Severe settlement on Central Cross causing buses to scrape bottom.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Severe",
+        "label": "SEVERITY_CUE",
+        "start": 0,
+        "end": 6
+      },
+      {
+        "text": "settlement on Central Cross",
+        "label": "STREET",
+        "start": 7,
+        "end": 34
+      }
+    ]
+  },
+  {
+    "id": "GOLD-016",
+    "text": "Pedestrian ramp shattered on Park Avenue opposite Town Hall.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "shattered on Park Avenue",
+        "label": "STREET",
+        "start": 16,
+        "end": 40
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 50,
+        "end": 59
+      }
+    ]
+  },
+  {
+    "id": "GOLD-017",
+    "text": "Noticeable vibration when trucks pass over Market Street overpass.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pass over Market Street",
+        "label": "STREET",
+        "start": 33,
+        "end": 56
+      }
+    ]
+  },
+  {
+    "id": "GOLD-018",
+    "text": "Damp patch and steady trickle on Market Street opposite Town Hall.",
+    "category": "water_leak",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "trickle on Market Street",
+        "label": "STREET",
+        "start": 22,
+        "end": 46
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 56,
+        "end": 65
+      }
+    ]
+  },
+  {
+    "id": "GOLD-019",
+    "text": "Traffic light controller dead on Park Avenue opposite Central Park.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Traffic light",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "dead on Park Avenue",
+        "label": "STREET",
+        "start": 25,
+        "end": 44
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 54,
+        "end": 66
+      }
+    ]
+  },
+  {
+    "id": "GOLD-020",
+    "text": "Traffic light controller dead on Park Avenue opposite Metro Station.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Traffic light",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "dead on Park Avenue",
+        "label": "STREET",
+        "start": 25,
+        "end": 44
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 54,
+        "end": 67
+      }
+    ]
+  },
+  {
+    "id": "GOLD-021",
+    "text": "Culvert blocked near Town Hall on Hospital Road, road submerged under 1 foot of water.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Culvert",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 21,
+        "end": 30
+      },
+      {
+        "text": "Hospital Road",
+        "label": "STREET",
+        "start": 34,
+        "end": 47
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 49,
+        "end": 53
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 80,
+        "end": 85
+      }
+    ]
+  },
+  {
+    "id": "GOLD-022",
+    "text": "Sidewalk slab missing exposing 2 foot trench on Central Cross.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Sidewalk",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "text": "trench on Central Cross",
+        "label": "STREET",
+        "start": 38,
+        "end": 61
+      }
+    ]
+  },
+  {
+    "id": "GOLD-023",
+    "text": "Concrete spalling and rebar exposed under Central Cross bridge deck.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "spalling",
+        "label": "DEFECT",
+        "start": 9,
+        "end": 17
+      },
+      {
+        "text": "exposed under Central Cross",
+        "label": "STREET",
+        "start": 28,
+        "end": 55
+      },
+      {
+        "text": "bridge",
+        "label": "ASSET_TYPE",
+        "start": 56,
+        "end": 62
+      }
+    ]
+  },
+  {
+    "id": "GOLD-024",
+    "text": "Cover sunken 15 cm below road surface on Hospital Road.",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "15 cm below road",
+        "label": "STREET",
+        "start": 13,
+        "end": 29
+      },
+      {
+        "text": "surface on Hospital Road",
+        "label": "STREET",
+        "start": 30,
+        "end": 54
+      }
+    ]
+  },
+  {
+    "id": "GOLD-025",
+    "text": "Signal lights blinking randomly on Station Road, pedestrian crossing unsafe.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "randomly on Station Road",
+        "label": "STREET",
+        "start": 23,
+        "end": 47
+      }
+    ]
+  },
+  {
+    "id": "GOLD-026",
+    "text": "Manhole backing up foul sewage near Metro Station on Station Road.",
+    "category": "sewer_overflow",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Manhole",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 36,
+        "end": 49
+      },
+      {
+        "text": "Station Road",
+        "label": "STREET",
+        "start": 53,
+        "end": 65
+      }
+    ]
+  },
+  {
+    "id": "GOLD-027",
+    "text": "Manhole backing up foul sewage near Town Hall on Station Road.",
+    "category": "sewer_overflow",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Manhole",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 36,
+        "end": 45
+      },
+      {
+        "text": "Station Road",
+        "label": "STREET",
+        "start": 49,
+        "end": 61
+      }
+    ]
+  },
+  {
+    "id": "GOLD-028",
+    "text": "Noticeable vibration when trucks pass over Hospital Road overpass.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pass over Hospital Road",
+        "label": "STREET",
+        "start": 33,
+        "end": 56
+      }
+    ]
+  },
+  {
+    "id": "GOLD-029",
+    "text": "Severe settlement on Hospital Road causing buses to scrape bottom.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Severe",
+        "label": "SEVERITY_CUE",
+        "start": 0,
+        "end": 6
+      },
+      {
+        "text": "settlement on Hospital Road",
+        "label": "STREET",
+        "start": 7,
+        "end": 34
+      }
+    ]
+  },
+  {
+    "id": "GOLD-030",
+    "text": "Pedestrian ramp shattered on Park Avenue opposite Metro Station.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "shattered on Park Avenue",
+        "label": "STREET",
+        "start": 16,
+        "end": 40
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 50,
+        "end": 63
+      }
+    ]
+  },
+  {
+    "id": "GOLD-031",
+    "text": "Iron manhole lid displaced and rattling loudly on Park Avenue.",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "manhole",
+        "label": "ASSET_TYPE",
+        "start": 5,
+        "end": 12
+      },
+      {
+        "text": "loudly on Park Avenue",
+        "label": "STREET",
+        "start": 40,
+        "end": 61
+      }
+    ]
+  },
+  {
+    "id": "GOLD-032",
+    "text": "Major water pipe burst on Park Avenue near Metro Station, massive geyser flooding the entire street!",
+    "category": "pipe_burst",
+    "severity": 4,
+    "urgency": "emergency",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "water pipe",
+        "label": "ASSET_TYPE",
+        "start": 6,
+        "end": 16
+      },
+      {
+        "text": "burst on Park Avenue",
+        "label": "STREET",
+        "start": 17,
+        "end": 37
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 43,
+        "end": 56
+      },
+      {
+        "text": "flooding the entire street",
+        "label": "STREET",
+        "start": 73,
+        "end": 99
+      }
+    ]
+  },
+  {
+    "id": "GOLD-033",
+    "text": "Storm drain completely clogged with trash on Central Cross, water logging during rain.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Storm drain",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "clogged",
+        "label": "DEFECT",
+        "start": 23,
+        "end": 30
+      },
+      {
+        "text": "trash on Central Cross",
+        "label": "STREET",
+        "start": 36,
+        "end": 58
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 60,
+        "end": 65
+      }
+    ]
+  },
+  {
+    "id": "GOLD-034",
+    "text": "Manhole cover missing on Hospital Road near Metro Station, open pit in darkness!",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Manhole",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "missing on Hospital Road",
+        "label": "STREET",
+        "start": 14,
+        "end": 38
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 44,
+        "end": 57
+      },
+      {
+        "text": "dark",
+        "label": "DEFECT",
+        "start": 71,
+        "end": 75
+      }
+    ]
+  },
+  {
+    "id": "GOLD-035",
+    "text": "Storm drain completely clogged with trash on Station Road, water logging during rain.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Storm drain",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "clogged",
+        "label": "DEFECT",
+        "start": 23,
+        "end": 30
+      },
+      {
+        "text": "trash on Station Road",
+        "label": "STREET",
+        "start": 36,
+        "end": 57
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 59,
+        "end": 64
+      }
+    ]
+  },
+  {
+    "id": "GOLD-036",
+    "text": "Pedestrian ramp shattered on Central Cross opposite Town Hall.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "shattered on Central Cross",
+        "label": "STREET",
+        "start": 16,
+        "end": 42
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 52,
+        "end": 61
+      }
+    ]
+  },
+  {
+    "id": "GOLD-037",
+    "text": "Manhole cover missing on Park Avenue near Town Hall, open pit in darkness!",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Manhole",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "missing on Park Avenue",
+        "label": "STREET",
+        "start": 14,
+        "end": 36
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 42,
+        "end": 51
+      },
+      {
+        "text": "dark",
+        "label": "DEFECT",
+        "start": 65,
+        "end": 69
+      }
+    ]
+  },
+  {
+    "id": "GOLD-038",
+    "text": "Signal lights blinking randomly on Park Avenue, pedestrian crossing unsafe.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "randomly on Park Avenue",
+        "label": "STREET",
+        "start": 23,
+        "end": 46
+      }
+    ]
+  },
+  {
+    "id": "GOLD-039",
+    "text": "Iron manhole lid displaced and rattling loudly on Park Avenue.",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "manhole",
+        "label": "ASSET_TYPE",
+        "start": 5,
+        "end": 12
+      },
+      {
+        "text": "loudly on Park Avenue",
+        "label": "STREET",
+        "start": 40,
+        "end": 61
+      }
+    ]
+  },
+  {
+    "id": "GOLD-040",
+    "text": "Monsoon runoff unable to drain into storm catchbasin on Central Cross.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "catchbasin on Central Cross",
+        "label": "STREET",
+        "start": 42,
+        "end": 69
+      }
+    ]
+  },
+  {
+    "id": "GOLD-041",
+    "text": "Water is bubbling up near the bus stop opposite City Hospital on Park Avenue, road is getting slippery.",
+    "category": "water_leak",
+    "severity": 3,
+    "urgency": "expedited",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Water",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "bubbling up",
+        "label": "DEFECT",
+        "start": 9,
+        "end": 20
+      },
+      {
+        "text": "bus stop",
+        "label": "LANDMARK",
+        "start": 30,
+        "end": 38
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 48,
+        "end": 61
+      },
+      {
+        "text": "Park Avenue",
+        "label": "STREET",
+        "start": 65,
+        "end": 76
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 78,
+        "end": 82
+      },
+      {
+        "text": "slippery",
+        "label": "SEVERITY_CUE",
+        "start": 94,
+        "end": 102
+      }
+    ]
+  },
+  {
+    "id": "GOLD-042",
+    "text": "Water is bubbling up near the bus stop opposite Metro Station on Hospital Road, road is getting slippery.",
+    "category": "water_leak",
+    "severity": 3,
+    "urgency": "expedited",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Water",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "bubbling up",
+        "label": "DEFECT",
+        "start": 9,
+        "end": 20
+      },
+      {
+        "text": "bus stop",
+        "label": "LANDMARK",
+        "start": 30,
+        "end": 38
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 48,
+        "end": 61
+      },
+      {
+        "text": "Hospital Road",
+        "label": "STREET",
+        "start": 65,
+        "end": 78
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 80,
+        "end": 84
+      },
+      {
+        "text": "slippery",
+        "label": "SEVERITY_CUE",
+        "start": 96,
+        "end": 104
+      }
+    ]
+  },
+  {
+    "id": "GOLD-043",
+    "text": "Cluster of sharp potholes on Station Road opposite City Hospital.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "potholes on Station Road",
+        "label": "STREET",
+        "start": 17,
+        "end": 41
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 51,
+        "end": 64
+      }
+    ]
+  },
+  {
+    "id": "GOLD-044",
+    "text": "Sewage overflowing from manhole on Market Street near City Hospital, terrible stench.",
+    "category": "sewer_overflow",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "overflowing",
+        "label": "DEFECT",
+        "start": 7,
+        "end": 18
+      },
+      {
+        "text": "manhole on Market Street",
+        "label": "STREET",
+        "start": 24,
+        "end": 48
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 54,
+        "end": 67
+      }
+    ]
+  },
+  {
+    "id": "GOLD-045",
+    "text": "Signal lights blinking randomly on Market Street, pedestrian crossing unsafe.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "randomly on Market Street",
+        "label": "STREET",
+        "start": 23,
+        "end": 48
+      }
+    ]
+  },
+  {
+    "id": "GOLD-046",
+    "text": "High pressure water main blew out near Park Avenue opposite City Hospital, road collapsed.",
+    "category": "pipe_burst",
+    "severity": 4,
+    "urgency": "emergency",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "High pressure water main",
+        "label": "STREET",
+        "start": 0,
+        "end": 24
+      },
+      {
+        "text": "out near Park Avenue",
+        "label": "STREET",
+        "start": 30,
+        "end": 50
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 60,
+        "end": 73
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 75,
+        "end": 79
+      }
+    ]
+  },
+  {
+    "id": "GOLD-047",
+    "text": "Sidewalk slab missing exposing 2 foot trench on Station Road.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Sidewalk",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "text": "trench on Station Road",
+        "label": "STREET",
+        "start": 38,
+        "end": 60
+      }
+    ]
+  },
+  {
+    "id": "GOLD-048",
+    "text": "Major water pipe burst on Park Avenue near City Hospital, massive geyser flooding the entire street!",
+    "category": "pipe_burst",
+    "severity": 4,
+    "urgency": "emergency",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "water pipe",
+        "label": "ASSET_TYPE",
+        "start": 6,
+        "end": 16
+      },
+      {
+        "text": "burst on Park Avenue",
+        "label": "STREET",
+        "start": 17,
+        "end": 37
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 43,
+        "end": 56
+      },
+      {
+        "text": "flooding the entire street",
+        "label": "STREET",
+        "start": 73,
+        "end": 99
+      }
+    ]
+  },
+  {
+    "id": "GOLD-049",
+    "text": "Damp patch and steady trickle on Market Street opposite Metro Station.",
+    "category": "water_leak",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "trickle on Market Street",
+        "label": "STREET",
+        "start": 22,
+        "end": 46
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 56,
+        "end": 69
+      }
+    ]
+  },
+  {
+    "id": "GOLD-050",
+    "text": "Noticeable vibration when trucks pass over Station Road overpass.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pass over Station Road",
+        "label": "STREET",
+        "start": 33,
+        "end": 55
+      }
+    ]
+  },
+  {
+    "id": "GOLD-051",
+    "text": "Entire stretch of Central Cross in pitch darkness, 4 street lights completely out.",
+    "category": "streetlight_outage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "stretch of Central Cross",
+        "label": "STREET",
+        "start": 7,
+        "end": 31
+      },
+      {
+        "text": "dark",
+        "label": "DEFECT",
+        "start": 41,
+        "end": 45
+      },
+      {
+        "text": "4 street",
+        "label": "STREET",
+        "start": 51,
+        "end": 59
+      }
+    ]
+  },
+  {
+    "id": "GOLD-052",
+    "text": "Cover sunken 15 cm below road surface on Market Street.",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "15 cm below road",
+        "label": "STREET",
+        "start": 13,
+        "end": 29
+      },
+      {
+        "text": "surface on Market Street",
+        "label": "STREET",
+        "start": 30,
+        "end": 54
+      }
+    ]
+  },
+  {
+    "id": "GOLD-053",
+    "text": "Foul black water flooding footpath on Central Cross, health hazard for pedestrians.",
+    "category": "sewer_overflow",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 11,
+        "end": 16
+      },
+      {
+        "text": "footpath on Central Cross",
+        "label": "STREET",
+        "start": 26,
+        "end": 51
+      },
+      {
+        "text": "hazard",
+        "label": "SEVERITY_CUE",
+        "start": 60,
+        "end": 66
+      }
+    ]
+  },
+  {
+    "id": "GOLD-054",
+    "text": "Expansion joint rattling loudly on Hospital Road flyover near Metro Station.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "loudly on Hospital Road",
+        "label": "STREET",
+        "start": 25,
+        "end": 48
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 62,
+        "end": 75
+      }
+    ]
+  },
+  {
+    "id": "GOLD-055",
+    "text": "Huge pipe burst on Hospital Road, houses losing pressure and street submerged.",
+    "category": "pipe_burst",
+    "severity": 4,
+    "urgency": "emergency",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "burst on Hospital Road",
+        "label": "STREET",
+        "start": 10,
+        "end": 32
+      },
+      {
+        "text": "losing pressure and street",
+        "label": "STREET",
+        "start": 41,
+        "end": 67
+      }
+    ]
+  },
+  {
+    "id": "GOLD-056",
+    "text": "Deep pothole on Hospital Road rim broken yesterday evening.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pothole on Hospital Road",
+        "label": "STREET",
+        "start": 5,
+        "end": 29
+      },
+      {
+        "text": "yesterday",
+        "label": "DATE/TIME",
+        "start": 41,
+        "end": 50
+      }
+    ]
+  },
+  {
+    "id": "GOLD-057",
+    "text": "Manhole cover missing on Market Street near Central Park, open pit in darkness!",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Manhole",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "missing on Market Street",
+        "label": "STREET",
+        "start": 14,
+        "end": 38
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 44,
+        "end": 56
+      },
+      {
+        "text": "dark",
+        "label": "DEFECT",
+        "start": 70,
+        "end": 74
+      }
+    ]
+  },
+  {
+    "id": "GOLD-058",
+    "text": "Uneven pavement and crumbling surface on Central Cross for 200 meters.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "surface on Central Cross",
+        "label": "STREET",
+        "start": 30,
+        "end": 54
+      },
+      {
+        "text": "200 meters",
+        "label": "MEASUREMENT",
+        "start": 59,
+        "end": 69
+      }
+    ]
+  },
+  {
+    "id": "GOLD-059",
+    "text": "Culvert blocked near Town Hall on Station Road, road submerged under 1 foot of water.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Culvert",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 21,
+        "end": 30
+      },
+      {
+        "text": "Station Road",
+        "label": "STREET",
+        "start": 34,
+        "end": 46
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 48,
+        "end": 52
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 79,
+        "end": 84
+      }
+    ]
+  },
+  {
+    "id": "GOLD-060",
+    "text": "Culvert blocked near Metro Station on Central Cross, road submerged under 1 foot of water.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Culvert",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 21,
+        "end": 34
+      },
+      {
+        "text": "Central Cross",
+        "label": "STREET",
+        "start": 38,
+        "end": 51
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 53,
+        "end": 57
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 84,
+        "end": 89
+      }
+    ]
+  },
+  {
+    "id": "GOLD-061",
+    "text": "Cluster of sharp potholes on Market Street opposite Town Hall.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "potholes on Market Street",
+        "label": "STREET",
+        "start": 17,
+        "end": 42
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 52,
+        "end": 61
+      }
+    ]
+  },
+  {
+    "id": "GOLD-062",
+    "text": "Traffic signal stuck on red at Central Cross junction near City Hospital, major gridlock.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Traffic signal",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "red at Central Cross",
+        "label": "STREET",
+        "start": 24,
+        "end": 44
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 59,
+        "end": 72
+      }
+    ]
+  },
+  {
+    "id": "GOLD-063",
+    "text": "Clear water running along the gutter near Park Avenue near Town Hall.",
+    "category": "water_leak",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 6,
+        "end": 11
+      },
+      {
+        "text": "gutter near Park Avenue",
+        "label": "STREET",
+        "start": 30,
+        "end": 53
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 59,
+        "end": 68
+      }
+    ]
+  },
+  {
+    "id": "GOLD-064",
+    "text": "Broken concrete pavers on footpath along Market Street near City Hospital, tripping elderly.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "footpath along Market Street",
+        "label": "STREET",
+        "start": 26,
+        "end": 54
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 60,
+        "end": 73
+      }
+    ]
+  },
+  {
+    "id": "GOLD-065",
+    "text": "Culvert blocked near Central Park on Hospital Road, road submerged under 1 foot of water.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Culvert",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 21,
+        "end": 33
+      },
+      {
+        "text": "Hospital Road",
+        "label": "STREET",
+        "start": 37,
+        "end": 50
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 52,
+        "end": 56
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 83,
+        "end": 88
+      }
+    ]
+  },
+  {
+    "id": "GOLD-066",
+    "text": "Expansion joint rattling loudly on Station Road flyover near City Hospital.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "loudly on Station Road",
+        "label": "STREET",
+        "start": 25,
+        "end": 47
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 61,
+        "end": 74
+      }
+    ]
+  },
+  {
+    "id": "GOLD-067",
+    "text": "Cover sunken 15 cm below road surface on Park Avenue.",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "15 cm below road",
+        "label": "STREET",
+        "start": 13,
+        "end": 29
+      },
+      {
+        "text": "surface on Park Avenue",
+        "label": "STREET",
+        "start": 30,
+        "end": 52
+      }
+    ]
+  },
+  {
+    "id": "GOLD-068",
+    "text": "Culvert blocked near Town Hall on Station Road, road submerged under 1 foot of water.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Culvert",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 21,
+        "end": 30
+      },
+      {
+        "text": "Station Road",
+        "label": "STREET",
+        "start": 34,
+        "end": 46
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 48,
+        "end": 52
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 79,
+        "end": 84
+      }
+    ]
+  },
+  {
+    "id": "GOLD-069",
+    "text": "Manhole backing up foul sewage near Metro Station on Station Road.",
+    "category": "sewer_overflow",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Manhole",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 36,
+        "end": 49
+      },
+      {
+        "text": "Station Road",
+        "label": "STREET",
+        "start": 53,
+        "end": 65
+      }
+    ]
+  },
+  {
+    "id": "GOLD-070",
+    "text": "Storm drain completely clogged with trash on Hospital Road, water logging during rain.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Storm drain",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "clogged",
+        "label": "DEFECT",
+        "start": 23,
+        "end": 30
+      },
+      {
+        "text": "trash on Hospital Road",
+        "label": "STREET",
+        "start": 36,
+        "end": 58
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 60,
+        "end": 65
+      }
+    ]
+  },
+  {
+    "id": "GOLD-071",
+    "text": "Main pipeline ruptured on Market Street, water gushing into adjacent shops.",
+    "category": "pipe_burst",
+    "severity": 4,
+    "urgency": "emergency",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "ruptured on Market Street",
+        "label": "STREET",
+        "start": 14,
+        "end": 39
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 41,
+        "end": 46
+      },
+      {
+        "text": "gushing",
+        "label": "DEFECT",
+        "start": 47,
+        "end": 54
+      }
+    ]
+  },
+  {
+    "id": "GOLD-072",
+    "text": "Signal lights blinking randomly on Station Road, pedestrian crossing unsafe.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "randomly on Station Road",
+        "label": "STREET",
+        "start": 23,
+        "end": 47
+      }
+    ]
+  },
+  {
+    "id": "GOLD-073",
+    "text": "Leaking water pipe outside Metro Station on Central Cross, wet pavement for past 2 days.",
+    "category": "water_leak",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Leaking",
+        "label": "DEFECT",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "water pipe",
+        "label": "ASSET_TYPE",
+        "start": 8,
+        "end": 18
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 27,
+        "end": 40
+      },
+      {
+        "text": "Central Cross",
+        "label": "STREET",
+        "start": 44,
+        "end": 57
+      }
+    ]
+  },
+  {
+    "id": "GOLD-074",
+    "text": "Severe settlement on Park Avenue causing buses to scrape bottom.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Severe",
+        "label": "SEVERITY_CUE",
+        "start": 0,
+        "end": 6
+      },
+      {
+        "text": "settlement on Park Avenue",
+        "label": "STREET",
+        "start": 7,
+        "end": 32
+      }
+    ]
+  },
+  {
+    "id": "GOLD-075",
+    "text": "Deep pothole on Market Street rim broken yesterday evening.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pothole on Market Street",
+        "label": "STREET",
+        "start": 5,
+        "end": 29
+      },
+      {
+        "text": "yesterday",
+        "label": "DATE/TIME",
+        "start": 41,
+        "end": 50
+      }
+    ]
+  },
+  {
+    "id": "GOLD-076",
+    "text": "Foul black water flooding footpath on Central Cross, health hazard for pedestrians.",
+    "category": "sewer_overflow",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 11,
+        "end": 16
+      },
+      {
+        "text": "footpath on Central Cross",
+        "label": "STREET",
+        "start": 26,
+        "end": 51
+      },
+      {
+        "text": "hazard",
+        "label": "SEVERITY_CUE",
+        "start": 60,
+        "end": 66
+      }
+    ]
+  },
+  {
+    "id": "GOLD-077",
+    "text": "Water bubbling through the asphalt on Park Avenue since morning, hazard for two wheelers.",
+    "category": "water_leak",
+    "severity": 3,
+    "urgency": "expedited",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Water",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "bubbling",
+        "label": "DEFECT",
+        "start": 6,
+        "end": 14
+      },
+      {
+        "text": "asphalt on Park Avenue",
+        "label": "STREET",
+        "start": 27,
+        "end": 49
+      },
+      {
+        "text": "since morning",
+        "label": "DATE/TIME",
+        "start": 50,
+        "end": 63
+      },
+      {
+        "text": "hazard",
+        "label": "SEVERITY_CUE",
+        "start": 65,
+        "end": 71
+      }
+    ]
+  },
+  {
+    "id": "GOLD-078",
+    "text": "Damp patch and steady trickle on Station Road opposite Central Park.",
+    "category": "water_leak",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "trickle on Station Road",
+        "label": "STREET",
+        "start": 22,
+        "end": 45
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 55,
+        "end": 67
+      }
+    ]
+  },
+  {
+    "id": "GOLD-079",
+    "text": "Noticeable vibration when trucks pass over Central Cross overpass.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pass over Central Cross",
+        "label": "STREET",
+        "start": 33,
+        "end": 56
+      }
+    ]
+  },
+  {
+    "id": "GOLD-080",
+    "text": "Culvert blocked near Town Hall on Market Street, road submerged under 1 foot of water.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Culvert",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 21,
+        "end": 30
+      },
+      {
+        "text": "Market Street",
+        "label": "STREET",
+        "start": 34,
+        "end": 47
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 49,
+        "end": 53
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 80,
+        "end": 85
+      }
+    ]
+  },
+  {
+    "id": "GOLD-081",
+    "text": "Manhole cover missing on Central Cross near Town Hall, open pit in darkness!",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Manhole",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "missing on Central Cross",
+        "label": "STREET",
+        "start": 14,
+        "end": 38
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 44,
+        "end": 53
+      },
+      {
+        "text": "dark",
+        "label": "DEFECT",
+        "start": 67,
+        "end": 71
+      }
+    ]
+  },
+  {
+    "id": "GOLD-082",
+    "text": "High pressure water main blew out near Park Avenue opposite Central Park, road collapsed.",
+    "category": "pipe_burst",
+    "severity": 4,
+    "urgency": "emergency",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "High pressure water main",
+        "label": "STREET",
+        "start": 0,
+        "end": 24
+      },
+      {
+        "text": "out near Park Avenue",
+        "label": "STREET",
+        "start": 30,
+        "end": 50
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 60,
+        "end": 72
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 74,
+        "end": 78
+      }
+    ]
+  },
+  {
+    "id": "GOLD-083",
+    "text": "Iron manhole lid displaced and rattling loudly on Central Cross.",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "manhole",
+        "label": "ASSET_TYPE",
+        "start": 5,
+        "end": 12
+      },
+      {
+        "text": "loudly on Central Cross",
+        "label": "STREET",
+        "start": 40,
+        "end": 63
+      }
+    ]
+  },
+  {
+    "id": "GOLD-084",
+    "text": "Pedestrian ramp shattered on Central Cross opposite Town Hall.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "shattered on Central Cross",
+        "label": "STREET",
+        "start": 16,
+        "end": 42
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 52,
+        "end": 61
+      }
+    ]
+  },
+  {
+    "id": "GOLD-085",
+    "text": "Signal lights blinking randomly on Market Street, pedestrian crossing unsafe.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "randomly on Market Street",
+        "label": "STREET",
+        "start": 23,
+        "end": 48
+      }
+    ]
+  },
+  {
+    "id": "GOLD-086",
+    "text": "Road subsidence and severe asphalt rutting on Park Avenue near Metro Station.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Road",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "subsidence",
+        "label": "DEFECT",
+        "start": 5,
+        "end": 15
+      },
+      {
+        "text": "severe",
+        "label": "SEVERITY_CUE",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "text": "rutting on Park Avenue",
+        "label": "STREET",
+        "start": 35,
+        "end": 57
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 63,
+        "end": 76
+      }
+    ]
+  },
+  {
+    "id": "GOLD-087",
+    "text": "High pressure water main blew out near Station Road opposite Town Hall, road collapsed.",
+    "category": "pipe_burst",
+    "severity": 4,
+    "urgency": "emergency",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "High pressure water main",
+        "label": "STREET",
+        "start": 0,
+        "end": 24
+      },
+      {
+        "text": "out near Station Road",
+        "label": "STREET",
+        "start": 30,
+        "end": 51
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 61,
+        "end": 70
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 72,
+        "end": 76
+      }
+    ]
+  },
+  {
+    "id": "GOLD-088",
+    "text": "Road subsidence and severe asphalt rutting on Hospital Road near Town Hall.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Road",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "subsidence",
+        "label": "DEFECT",
+        "start": 5,
+        "end": 15
+      },
+      {
+        "text": "severe",
+        "label": "SEVERITY_CUE",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "text": "rutting on Hospital Road",
+        "label": "STREET",
+        "start": 35,
+        "end": 59
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 65,
+        "end": 74
+      }
+    ]
+  },
+  {
+    "id": "GOLD-089",
+    "text": "Severe settlement on Central Cross causing buses to scrape bottom.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Severe",
+        "label": "SEVERITY_CUE",
+        "start": 0,
+        "end": 6
+      },
+      {
+        "text": "settlement on Central Cross",
+        "label": "STREET",
+        "start": 7,
+        "end": 34
+      }
+    ]
+  },
+  {
+    "id": "GOLD-090",
+    "text": "Clear water running along the gutter near Hospital Road near Town Hall.",
+    "category": "water_leak",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 6,
+        "end": 11
+      },
+      {
+        "text": "gutter near Hospital Road",
+        "label": "STREET",
+        "start": 30,
+        "end": 55
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 61,
+        "end": 70
+      }
+    ]
+  },
+  {
+    "id": "GOLD-091",
+    "text": "Streetlight dark and flickering near Town Hall on Station Road since last week.",
+    "category": "streetlight_outage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Streetlight",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "dark",
+        "label": "DEFECT",
+        "start": 12,
+        "end": 16
+      },
+      {
+        "text": "flickering",
+        "label": "DEFECT",
+        "start": 21,
+        "end": 31
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 37,
+        "end": 46
+      },
+      {
+        "text": "Station Road",
+        "label": "STREET",
+        "start": 50,
+        "end": 62
+      },
+      {
+        "text": "last week",
+        "label": "DATE/TIME",
+        "start": 69,
+        "end": 78
+      }
+    ]
+  },
+  {
+    "id": "GOLD-092",
+    "text": "Manhole cover missing on Market Street near City Hospital, open pit in darkness!",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Manhole",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "missing on Market Street",
+        "label": "STREET",
+        "start": 14,
+        "end": 38
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 44,
+        "end": 57
+      },
+      {
+        "text": "dark",
+        "label": "DEFECT",
+        "start": 71,
+        "end": 75
+      }
+    ]
+  },
+  {
+    "id": "GOLD-093",
+    "text": "Main pipeline ruptured on Market Street, water gushing into adjacent shops.",
+    "category": "pipe_burst",
+    "severity": 4,
+    "urgency": "emergency",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "ruptured on Market Street",
+        "label": "STREET",
+        "start": 14,
+        "end": 39
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 41,
+        "end": 46
+      },
+      {
+        "text": "gushing",
+        "label": "DEFECT",
+        "start": 47,
+        "end": 54
+      }
+    ]
+  },
+  {
+    "id": "GOLD-094",
+    "text": "Monsoon runoff unable to drain into storm catchbasin on Central Cross.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "catchbasin on Central Cross",
+        "label": "STREET",
+        "start": 42,
+        "end": 69
+      }
+    ]
+  },
+  {
+    "id": "GOLD-095",
+    "text": "Traffic signal stuck on red at Station Road junction near Central Park, major gridlock.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Traffic signal",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "red at Station Road",
+        "label": "STREET",
+        "start": 24,
+        "end": 43
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 58,
+        "end": 70
+      }
+    ]
+  },
+  {
+    "id": "GOLD-096",
+    "text": "Pedestrian ramp shattered on Park Avenue opposite Town Hall.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "shattered on Park Avenue",
+        "label": "STREET",
+        "start": 16,
+        "end": 40
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 50,
+        "end": 59
+      }
+    ]
+  },
+  {
+    "id": "GOLD-097",
+    "text": "Culvert blocked near City Hospital on Station Road, road submerged under 1 foot of water.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Culvert",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 21,
+        "end": 34
+      },
+      {
+        "text": "Station Road",
+        "label": "STREET",
+        "start": 38,
+        "end": 50
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 52,
+        "end": 56
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 83,
+        "end": 88
+      }
+    ]
+  },
+  {
+    "id": "GOLD-098",
+    "text": "Signal lights blinking randomly on Market Street, pedestrian crossing unsafe.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "randomly on Market Street",
+        "label": "STREET",
+        "start": 23,
+        "end": 48
+      }
+    ]
+  },
+  {
+    "id": "GOLD-099",
+    "text": "Storm drain completely clogged with trash on Central Cross, water logging during rain.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Storm drain",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "clogged",
+        "label": "DEFECT",
+        "start": 23,
+        "end": 30
+      },
+      {
+        "text": "trash on Central Cross",
+        "label": "STREET",
+        "start": 36,
+        "end": 58
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 60,
+        "end": 65
+      }
+    ]
+  },
+  {
+    "id": "GOLD-100",
+    "text": "Sidewalk slab missing exposing 2 foot trench on Hospital Road.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Sidewalk",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "text": "trench on Hospital Road",
+        "label": "STREET",
+        "start": 38,
+        "end": 61
+      }
+    ]
+  },
+  {
+    "id": "GOLD-101",
+    "text": "Entire stretch of Station Road in pitch darkness, 4 street lights completely out.",
+    "category": "streetlight_outage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "stretch of Station Road",
+        "label": "STREET",
+        "start": 7,
+        "end": 30
+      },
+      {
+        "text": "dark",
+        "label": "DEFECT",
+        "start": 40,
+        "end": 44
+      },
+      {
+        "text": "4 street",
+        "label": "STREET",
+        "start": 50,
+        "end": 58
+      }
+    ]
+  },
+  {
+    "id": "GOLD-102",
+    "text": "Damp patch and steady trickle on Central Cross opposite Central Park.",
+    "category": "water_leak",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "trickle on Central Cross",
+        "label": "STREET",
+        "start": 22,
+        "end": 46
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 56,
+        "end": 68
+      }
+    ]
+  },
+  {
+    "id": "GOLD-103",
+    "text": "Road subsidence and severe asphalt rutting on Central Cross near Central Park.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Road",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "subsidence",
+        "label": "DEFECT",
+        "start": 5,
+        "end": 15
+      },
+      {
+        "text": "severe",
+        "label": "SEVERITY_CUE",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "text": "rutting on Central Cross",
+        "label": "STREET",
+        "start": 35,
+        "end": 59
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 65,
+        "end": 77
+      }
+    ]
+  },
+  {
+    "id": "GOLD-104",
+    "text": "Manhole backing up foul sewage near Central Park on Park Avenue.",
+    "category": "sewer_overflow",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Manhole",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 36,
+        "end": 48
+      },
+      {
+        "text": "Park Avenue",
+        "label": "STREET",
+        "start": 52,
+        "end": 63
+      }
+    ]
+  },
+  {
+    "id": "GOLD-105",
+    "text": "Culvert blocked near City Hospital on Station Road, road submerged under 1 foot of water.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Culvert",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 21,
+        "end": 34
+      },
+      {
+        "text": "Station Road",
+        "label": "STREET",
+        "start": 38,
+        "end": 50
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 52,
+        "end": 56
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 83,
+        "end": 88
+      }
+    ]
+  },
+  {
+    "id": "GOLD-106",
+    "text": "Huge pothole on Central Cross right in front of Town Hall, multiple two wheelers damaged.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pothole on Central Cross",
+        "label": "STREET",
+        "start": 5,
+        "end": 29
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 48,
+        "end": 57
+      }
+    ]
+  },
+  {
+    "id": "GOLD-107",
+    "text": "Noticeable vibration when trucks pass over Market Street overpass.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pass over Market Street",
+        "label": "STREET",
+        "start": 33,
+        "end": 56
+      }
+    ]
+  },
+  {
+    "id": "GOLD-108",
+    "text": "Signal lights blinking randomly on Station Road, pedestrian crossing unsafe.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "randomly on Station Road",
+        "label": "STREET",
+        "start": 23,
+        "end": 47
+      }
+    ]
+  },
+  {
+    "id": "GOLD-109",
+    "text": "Huge pothole on Park Avenue right in front of Metro Station, multiple two wheelers damaged.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pothole on Park Avenue",
+        "label": "STREET",
+        "start": 5,
+        "end": 27
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 46,
+        "end": 59
+      }
+    ]
+  },
+  {
+    "id": "GOLD-110",
+    "text": "Deep pothole on Hospital Road rim broken yesterday evening.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pothole on Hospital Road",
+        "label": "STREET",
+        "start": 5,
+        "end": 29
+      },
+      {
+        "text": "yesterday",
+        "label": "DATE/TIME",
+        "start": 41,
+        "end": 50
+      }
+    ]
+  },
+  {
+    "id": "GOLD-111",
+    "text": "Sewage overflowing from manhole on Station Road near Town Hall, terrible stench.",
+    "category": "sewer_overflow",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "overflowing",
+        "label": "DEFECT",
+        "start": 7,
+        "end": 18
+      },
+      {
+        "text": "manhole on Station Road",
+        "label": "STREET",
+        "start": 24,
+        "end": 47
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 53,
+        "end": 62
+      }
+    ]
+  },
+  {
+    "id": "GOLD-112",
+    "text": "Iron manhole lid displaced and rattling loudly on Market Street.",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "manhole",
+        "label": "ASSET_TYPE",
+        "start": 5,
+        "end": 12
+      },
+      {
+        "text": "loudly on Market Street",
+        "label": "STREET",
+        "start": 40,
+        "end": 63
+      }
+    ]
+  },
+  {
+    "id": "GOLD-113",
+    "text": "Dangerous crater 30 cm deep on Market Street near Metro Station, accident waiting to happen.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Dangerous",
+        "label": "SEVERITY_CUE",
+        "start": 0,
+        "end": 9
+      },
+      {
+        "text": "crater",
+        "label": "DEFECT",
+        "start": 10,
+        "end": 16
+      },
+      {
+        "text": "30 cm",
+        "label": "MEASUREMENT",
+        "start": 17,
+        "end": 22
+      },
+      {
+        "text": "deep on Market Street",
+        "label": "STREET",
+        "start": 23,
+        "end": 44
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 50,
+        "end": 63
+      },
+      {
+        "text": "accident",
+        "label": "SEVERITY_CUE",
+        "start": 65,
+        "end": 73
+      }
+    ]
+  },
+  {
+    "id": "GOLD-114",
+    "text": "Deep pothole on Park Avenue rim broken yesterday evening.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pothole on Park Avenue",
+        "label": "STREET",
+        "start": 5,
+        "end": 27
+      },
+      {
+        "text": "yesterday",
+        "label": "DATE/TIME",
+        "start": 39,
+        "end": 48
+      }
+    ]
+  },
+  {
+    "id": "GOLD-115",
+    "text": "Manhole cover missing on Station Road near Central Park, open pit in darkness!",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Manhole",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "missing on Station Road",
+        "label": "STREET",
+        "start": 14,
+        "end": 37
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 43,
+        "end": 55
+      },
+      {
+        "text": "dark",
+        "label": "DEFECT",
+        "start": 69,
+        "end": 73
+      }
+    ]
+  },
+  {
+    "id": "GOLD-116",
+    "text": "Damp patch and steady trickle on Central Cross opposite Central Park.",
+    "category": "water_leak",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "trickle on Central Cross",
+        "label": "STREET",
+        "start": 22,
+        "end": 46
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 56,
+        "end": 68
+      }
+    ]
+  },
+  {
+    "id": "GOLD-117",
+    "text": "Noticeable vibration when trucks pass over Central Cross overpass.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pass over Central Cross",
+        "label": "STREET",
+        "start": 33,
+        "end": 56
+      }
+    ]
+  },
+  {
+    "id": "GOLD-118",
+    "text": "Uneven pavement and crumbling surface on Central Cross for 200 meters.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "surface on Central Cross",
+        "label": "STREET",
+        "start": 30,
+        "end": 54
+      },
+      {
+        "text": "200 meters",
+        "label": "MEASUREMENT",
+        "start": 59,
+        "end": 69
+      }
+    ]
+  },
+  {
+    "id": "GOLD-119",
+    "text": "Noticeable vibration when trucks pass over Station Road overpass.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pass over Station Road",
+        "label": "STREET",
+        "start": 33,
+        "end": 55
+      }
+    ]
+  },
+  {
+    "id": "GOLD-120",
+    "text": "Traffic light controller dead on Central Cross opposite Metro Station.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Traffic light",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "dead on Central Cross",
+        "label": "STREET",
+        "start": 25,
+        "end": 46
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 56,
+        "end": 69
+      }
+    ]
+  },
+  {
+    "id": "GOLD-121",
+    "text": "Sidewalk slab missing exposing 2 foot trench on Station Road.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Sidewalk",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "text": "trench on Station Road",
+        "label": "STREET",
+        "start": 38,
+        "end": 60
+      }
+    ]
+  },
+  {
+    "id": "GOLD-122",
+    "text": "Storm drain completely clogged with trash on Station Road, water logging during rain.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Storm drain",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "clogged",
+        "label": "DEFECT",
+        "start": 23,
+        "end": 30
+      },
+      {
+        "text": "trash on Station Road",
+        "label": "STREET",
+        "start": 36,
+        "end": 57
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 59,
+        "end": 64
+      }
+    ]
+  },
+  {
+    "id": "GOLD-123",
+    "text": "Culvert blocked near Metro Station on Station Road, road submerged under 1 foot of water.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Culvert",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 21,
+        "end": 34
+      },
+      {
+        "text": "Station Road",
+        "label": "STREET",
+        "start": 38,
+        "end": 50
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 52,
+        "end": 56
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 83,
+        "end": 88
+      }
+    ]
+  },
+  {
+    "id": "GOLD-124",
+    "text": "Iron manhole lid displaced and rattling loudly on Market Street.",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "manhole",
+        "label": "ASSET_TYPE",
+        "start": 5,
+        "end": 12
+      },
+      {
+        "text": "loudly on Market Street",
+        "label": "STREET",
+        "start": 40,
+        "end": 63
+      }
+    ]
+  },
+  {
+    "id": "GOLD-125",
+    "text": "Monsoon runoff unable to drain into storm catchbasin on Central Cross.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "catchbasin on Central Cross",
+        "label": "STREET",
+        "start": 42,
+        "end": 69
+      }
+    ]
+  },
+  {
+    "id": "GOLD-126",
+    "text": "Major water pipe burst on Hospital Road near Metro Station, massive geyser flooding the entire street!",
+    "category": "pipe_burst",
+    "severity": 4,
+    "urgency": "emergency",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "water pipe",
+        "label": "ASSET_TYPE",
+        "start": 6,
+        "end": 16
+      },
+      {
+        "text": "burst on Hospital Road",
+        "label": "STREET",
+        "start": 17,
+        "end": 39
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 45,
+        "end": 58
+      },
+      {
+        "text": "flooding the entire street",
+        "label": "STREET",
+        "start": 75,
+        "end": 101
+      }
+    ]
+  },
+  {
+    "id": "GOLD-127",
+    "text": "Manhole cover missing on Park Avenue near City Hospital, open pit in darkness!",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Manhole",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "missing on Park Avenue",
+        "label": "STREET",
+        "start": 14,
+        "end": 36
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 42,
+        "end": 55
+      },
+      {
+        "text": "dark",
+        "label": "DEFECT",
+        "start": 69,
+        "end": 73
+      }
+    ]
+  },
+  {
+    "id": "GOLD-128",
+    "text": "Concrete spalling and rebar exposed under Market Street bridge deck.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "spalling",
+        "label": "DEFECT",
+        "start": 9,
+        "end": 17
+      },
+      {
+        "text": "exposed under Market Street",
+        "label": "STREET",
+        "start": 28,
+        "end": 55
+      },
+      {
+        "text": "bridge",
+        "label": "ASSET_TYPE",
+        "start": 56,
+        "end": 62
+      }
+    ]
+  },
+  {
+    "id": "GOLD-129",
+    "text": "Broken lamp pole tilting dangerously on Hospital Road opposite Metro Station.",
+    "category": "streetlight_outage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "dangerously on Hospital Road",
+        "label": "STREET",
+        "start": 25,
+        "end": 53
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 63,
+        "end": 76
+      }
+    ]
+  },
+  {
+    "id": "GOLD-130",
+    "text": "Expansion joint rattling loudly on Hospital Road flyover near Metro Station.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "loudly on Hospital Road",
+        "label": "STREET",
+        "start": 25,
+        "end": 48
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 62,
+        "end": 75
+      }
+    ]
+  },
+  {
+    "id": "GOLD-131",
+    "text": "Expansion joint rattling loudly on Hospital Road flyover near City Hospital.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "loudly on Hospital Road",
+        "label": "STREET",
+        "start": 25,
+        "end": 48
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 62,
+        "end": 75
+      }
+    ]
+  },
+  {
+    "id": "GOLD-132",
+    "text": "Noticeable vibration when trucks pass over Park Avenue overpass.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pass over Park Avenue",
+        "label": "STREET",
+        "start": 33,
+        "end": 54
+      }
+    ]
+  },
+  {
+    "id": "GOLD-133",
+    "text": "Monsoon runoff unable to drain into storm catchbasin on Station Road.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "catchbasin on Station Road",
+        "label": "STREET",
+        "start": 42,
+        "end": 68
+      }
+    ]
+  },
+  {
+    "id": "GOLD-134",
+    "text": "Streetlight bulb burnt out near City Hospital on Station Road.",
+    "category": "streetlight_outage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Streetlight",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 32,
+        "end": 45
+      },
+      {
+        "text": "Station Road",
+        "label": "STREET",
+        "start": 49,
+        "end": 61
+      }
+    ]
+  },
+  {
+    "id": "GOLD-135",
+    "text": "Broken concrete pavers on footpath along Station Road near Town Hall, tripping elderly.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "footpath along Station Road",
+        "label": "STREET",
+        "start": 26,
+        "end": 53
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 59,
+        "end": 68
+      }
+    ]
+  },
+  {
+    "id": "GOLD-136",
+    "text": "Sewage overflowing from manhole on Station Road near Metro Station, terrible stench.",
+    "category": "sewer_overflow",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "overflowing",
+        "label": "DEFECT",
+        "start": 7,
+        "end": 18
+      },
+      {
+        "text": "manhole on Station Road",
+        "label": "STREET",
+        "start": 24,
+        "end": 47
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 53,
+        "end": 66
+      }
+    ]
+  },
+  {
+    "id": "GOLD-137",
+    "text": "Foul black water flooding footpath on Central Cross, health hazard for pedestrians.",
+    "category": "sewer_overflow",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 11,
+        "end": 16
+      },
+      {
+        "text": "footpath on Central Cross",
+        "label": "STREET",
+        "start": 26,
+        "end": 51
+      },
+      {
+        "text": "hazard",
+        "label": "SEVERITY_CUE",
+        "start": 60,
+        "end": 66
+      }
+    ]
+  },
+  {
+    "id": "GOLD-138",
+    "text": "Uneven pavement and crumbling surface on Station Road for 200 meters.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "surface on Station Road",
+        "label": "STREET",
+        "start": 30,
+        "end": 53
+      },
+      {
+        "text": "200 meters",
+        "label": "MEASUREMENT",
+        "start": 58,
+        "end": 68
+      }
+    ]
+  },
+  {
+    "id": "GOLD-139",
+    "text": "Streetlight bulb burnt out near Central Park on Central Cross.",
+    "category": "streetlight_outage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Streetlight",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 32,
+        "end": 44
+      },
+      {
+        "text": "Central Cross",
+        "label": "STREET",
+        "start": 48,
+        "end": 61
+      }
+    ]
+  },
+  {
+    "id": "GOLD-140",
+    "text": "Monsoon runoff unable to drain into storm catchbasin on Central Cross.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "catchbasin on Central Cross",
+        "label": "STREET",
+        "start": 42,
+        "end": 69
+      }
+    ]
+  },
+  {
+    "id": "GOLD-141",
+    "text": "Sewage overflowing from manhole on Park Avenue near City Hospital, terrible stench.",
+    "category": "sewer_overflow",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "overflowing",
+        "label": "DEFECT",
+        "start": 7,
+        "end": 18
+      },
+      {
+        "text": "manhole on Park Avenue",
+        "label": "STREET",
+        "start": 24,
+        "end": 46
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 52,
+        "end": 65
+      }
+    ]
+  },
+  {
+    "id": "GOLD-142",
+    "text": "Broken concrete pavers on footpath along Market Street near City Hospital, tripping elderly.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "footpath along Market Street",
+        "label": "STREET",
+        "start": 26,
+        "end": 54
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 60,
+        "end": 73
+      }
+    ]
+  },
+  {
+    "id": "GOLD-143",
+    "text": "Dangerous crater 30 cm deep on Station Road near Metro Station, accident waiting to happen.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Dangerous",
+        "label": "SEVERITY_CUE",
+        "start": 0,
+        "end": 9
+      },
+      {
+        "text": "crater",
+        "label": "DEFECT",
+        "start": 10,
+        "end": 16
+      },
+      {
+        "text": "30 cm",
+        "label": "MEASUREMENT",
+        "start": 17,
+        "end": 22
+      },
+      {
+        "text": "deep on Station Road",
+        "label": "STREET",
+        "start": 23,
+        "end": 43
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 49,
+        "end": 62
+      },
+      {
+        "text": "accident",
+        "label": "SEVERITY_CUE",
+        "start": 64,
+        "end": 72
+      }
+    ]
+  },
+  {
+    "id": "GOLD-144",
+    "text": "Severe settlement on Central Cross causing buses to scrape bottom.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Severe",
+        "label": "SEVERITY_CUE",
+        "start": 0,
+        "end": 6
+      },
+      {
+        "text": "settlement on Central Cross",
+        "label": "STREET",
+        "start": 7,
+        "end": 34
+      }
+    ]
+  },
+  {
+    "id": "GOLD-145",
+    "text": "Traffic signal stuck on red at Market Street junction near Central Park, major gridlock.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Traffic signal",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "red at Market Street",
+        "label": "STREET",
+        "start": 24,
+        "end": 44
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 59,
+        "end": 71
+      }
+    ]
+  },
+  {
+    "id": "GOLD-146",
+    "text": "High pressure water main blew out near Hospital Road opposite Metro Station, road collapsed.",
+    "category": "pipe_burst",
+    "severity": 4,
+    "urgency": "emergency",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "High pressure water main",
+        "label": "STREET",
+        "start": 0,
+        "end": 24
+      },
+      {
+        "text": "out near Hospital Road",
+        "label": "STREET",
+        "start": 30,
+        "end": 52
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 62,
+        "end": 75
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 77,
+        "end": 81
+      }
+    ]
+  },
+  {
+    "id": "GOLD-147",
+    "text": "Manhole cover missing on Market Street near Town Hall, open pit in darkness!",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Manhole",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "missing on Market Street",
+        "label": "STREET",
+        "start": 14,
+        "end": 38
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 44,
+        "end": 53
+      },
+      {
+        "text": "dark",
+        "label": "DEFECT",
+        "start": 67,
+        "end": 71
+      }
+    ]
+  },
+  {
+    "id": "GOLD-148",
+    "text": "Cluster of sharp potholes on Hospital Road opposite Town Hall.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "potholes on Hospital Road",
+        "label": "STREET",
+        "start": 17,
+        "end": 42
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 52,
+        "end": 61
+      }
+    ]
+  },
+  {
+    "id": "GOLD-149",
+    "text": "Cover sunken 15 cm below road surface on Station Road.",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "15 cm below road",
+        "label": "STREET",
+        "start": 13,
+        "end": 29
+      },
+      {
+        "text": "surface on Station Road",
+        "label": "STREET",
+        "start": 30,
+        "end": 53
+      }
+    ]
+  },
+  {
+    "id": "GOLD-150",
+    "text": "Broken concrete pavers on footpath along Market Street near Metro Station, tripping elderly.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "footpath along Market Street",
+        "label": "STREET",
+        "start": 26,
+        "end": 54
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 60,
+        "end": 73
+      }
+    ]
+  },
+  {
+    "id": "GOLD-151",
+    "text": "Pedestrian ramp shattered on Station Road opposite Central Park.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "shattered on Station Road",
+        "label": "STREET",
+        "start": 16,
+        "end": 41
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 51,
+        "end": 63
+      }
+    ]
+  },
+  {
+    "id": "GOLD-152",
+    "text": "Foul black water flooding footpath on Hospital Road, health hazard for pedestrians.",
+    "category": "sewer_overflow",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 11,
+        "end": 16
+      },
+      {
+        "text": "footpath on Hospital Road",
+        "label": "STREET",
+        "start": 26,
+        "end": 51
+      },
+      {
+        "text": "hazard",
+        "label": "SEVERITY_CUE",
+        "start": 60,
+        "end": 66
+      }
+    ]
+  },
+  {
+    "id": "GOLD-153",
+    "text": "Broken concrete pavers on footpath along Park Avenue near City Hospital, tripping elderly.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "footpath along Park Avenue",
+        "label": "STREET",
+        "start": 26,
+        "end": 52
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 58,
+        "end": 71
+      }
+    ]
+  },
+  {
+    "id": "GOLD-154",
+    "text": "Culvert blocked near Central Park on Station Road, road submerged under 1 foot of water.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Culvert",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 21,
+        "end": 33
+      },
+      {
+        "text": "Station Road",
+        "label": "STREET",
+        "start": 37,
+        "end": 49
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 51,
+        "end": 55
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 82,
+        "end": 87
+      }
+    ]
+  },
+  {
+    "id": "GOLD-155",
+    "text": "Foul black water flooding footpath on Market Street, health hazard for pedestrians.",
+    "category": "sewer_overflow",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 11,
+        "end": 16
+      },
+      {
+        "text": "footpath on Market Street",
+        "label": "STREET",
+        "start": 26,
+        "end": 51
+      },
+      {
+        "text": "hazard",
+        "label": "SEVERITY_CUE",
+        "start": 60,
+        "end": 66
+      }
+    ]
+  },
+  {
+    "id": "GOLD-156",
+    "text": "Pedestrian ramp shattered on Park Avenue opposite Metro Station.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "shattered on Park Avenue",
+        "label": "STREET",
+        "start": 16,
+        "end": 40
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 50,
+        "end": 63
+      }
+    ]
+  },
+  {
+    "id": "GOLD-157",
+    "text": "Concrete spalling and rebar exposed under Market Street bridge deck.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "spalling",
+        "label": "DEFECT",
+        "start": 9,
+        "end": 17
+      },
+      {
+        "text": "exposed under Market Street",
+        "label": "STREET",
+        "start": 28,
+        "end": 55
+      },
+      {
+        "text": "bridge",
+        "label": "ASSET_TYPE",
+        "start": 56,
+        "end": 62
+      }
+    ]
+  },
+  {
+    "id": "GOLD-158",
+    "text": "Iron manhole lid displaced and rattling loudly on Station Road.",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "manhole",
+        "label": "ASSET_TYPE",
+        "start": 5,
+        "end": 12
+      },
+      {
+        "text": "loudly on Station Road",
+        "label": "STREET",
+        "start": 40,
+        "end": 62
+      }
+    ]
+  },
+  {
+    "id": "GOLD-159",
+    "text": "Road subsidence and severe asphalt rutting on Park Avenue near Metro Station.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Road",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "subsidence",
+        "label": "DEFECT",
+        "start": 5,
+        "end": 15
+      },
+      {
+        "text": "severe",
+        "label": "SEVERITY_CUE",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "text": "rutting on Park Avenue",
+        "label": "STREET",
+        "start": 35,
+        "end": 57
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 63,
+        "end": 76
+      }
+    ]
+  },
+  {
+    "id": "GOLD-160",
+    "text": "Broken lamp pole tilting dangerously on Park Avenue opposite Town Hall.",
+    "category": "streetlight_outage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "dangerously on Park Avenue",
+        "label": "STREET",
+        "start": 25,
+        "end": 51
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 61,
+        "end": 70
+      }
+    ]
+  },
+  {
+    "id": "GOLD-161",
+    "text": "Huge pipe burst on Central Cross, houses losing pressure and street submerged.",
+    "category": "pipe_burst",
+    "severity": 4,
+    "urgency": "emergency",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "burst on Central Cross",
+        "label": "STREET",
+        "start": 10,
+        "end": 32
+      },
+      {
+        "text": "losing pressure and street",
+        "label": "STREET",
+        "start": 41,
+        "end": 67
+      }
+    ]
+  },
+  {
+    "id": "GOLD-162",
+    "text": "Deep pothole on Station Road rim broken yesterday evening.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pothole on Station Road",
+        "label": "STREET",
+        "start": 5,
+        "end": 28
+      },
+      {
+        "text": "yesterday",
+        "label": "DATE/TIME",
+        "start": 40,
+        "end": 49
+      }
+    ]
+  },
+  {
+    "id": "GOLD-163",
+    "text": "Culvert blocked near Metro Station on Station Road, road submerged under 1 foot of water.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Culvert",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 21,
+        "end": 34
+      },
+      {
+        "text": "Station Road",
+        "label": "STREET",
+        "start": 38,
+        "end": 50
+      },
+      {
+        "text": "road",
+        "label": "ASSET_TYPE",
+        "start": 52,
+        "end": 56
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 83,
+        "end": 88
+      }
+    ]
+  },
+  {
+    "id": "GOLD-164",
+    "text": "Severe settlement on Central Cross causing buses to scrape bottom.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Severe",
+        "label": "SEVERITY_CUE",
+        "start": 0,
+        "end": 6
+      },
+      {
+        "text": "settlement on Central Cross",
+        "label": "STREET",
+        "start": 7,
+        "end": 34
+      }
+    ]
+  },
+  {
+    "id": "GOLD-165",
+    "text": "Dangerous crater 30 cm deep on Park Avenue near Metro Station, accident waiting to happen.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Dangerous",
+        "label": "SEVERITY_CUE",
+        "start": 0,
+        "end": 9
+      },
+      {
+        "text": "crater",
+        "label": "DEFECT",
+        "start": 10,
+        "end": 16
+      },
+      {
+        "text": "30 cm",
+        "label": "MEASUREMENT",
+        "start": 17,
+        "end": 22
+      },
+      {
+        "text": "deep on Park Avenue",
+        "label": "STREET",
+        "start": 23,
+        "end": 42
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 48,
+        "end": 61
+      },
+      {
+        "text": "accident",
+        "label": "SEVERITY_CUE",
+        "start": 63,
+        "end": 71
+      }
+    ]
+  },
+  {
+    "id": "GOLD-166",
+    "text": "Concrete spalling and rebar exposed under Station Road bridge deck.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "spalling",
+        "label": "DEFECT",
+        "start": 9,
+        "end": 17
+      },
+      {
+        "text": "exposed under Station Road",
+        "label": "STREET",
+        "start": 28,
+        "end": 54
+      },
+      {
+        "text": "bridge",
+        "label": "ASSET_TYPE",
+        "start": 55,
+        "end": 61
+      }
+    ]
+  },
+  {
+    "id": "GOLD-167",
+    "text": "Sewage overflowing from manhole on Park Avenue near City Hospital, terrible stench.",
+    "category": "sewer_overflow",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "overflowing",
+        "label": "DEFECT",
+        "start": 7,
+        "end": 18
+      },
+      {
+        "text": "manhole on Park Avenue",
+        "label": "STREET",
+        "start": 24,
+        "end": 46
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 52,
+        "end": 65
+      }
+    ]
+  },
+  {
+    "id": "GOLD-168",
+    "text": "Noticeable vibration when trucks pass over Park Avenue overpass.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pass over Park Avenue",
+        "label": "STREET",
+        "start": 33,
+        "end": 54
+      }
+    ]
+  },
+  {
+    "id": "GOLD-169",
+    "text": "Signal lights blinking randomly on Station Road, pedestrian crossing unsafe.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "randomly on Station Road",
+        "label": "STREET",
+        "start": 23,
+        "end": 47
+      }
+    ]
+  },
+  {
+    "id": "GOLD-170",
+    "text": "Dangerous crater 30 cm deep on Park Avenue near City Hospital, accident waiting to happen.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Dangerous",
+        "label": "SEVERITY_CUE",
+        "start": 0,
+        "end": 9
+      },
+      {
+        "text": "crater",
+        "label": "DEFECT",
+        "start": 10,
+        "end": 16
+      },
+      {
+        "text": "30 cm",
+        "label": "MEASUREMENT",
+        "start": 17,
+        "end": 22
+      },
+      {
+        "text": "deep on Park Avenue",
+        "label": "STREET",
+        "start": 23,
+        "end": 42
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 48,
+        "end": 61
+      },
+      {
+        "text": "accident",
+        "label": "SEVERITY_CUE",
+        "start": 63,
+        "end": 71
+      }
+    ]
+  },
+  {
+    "id": "GOLD-171",
+    "text": "Manhole cover missing on Hospital Road near Metro Station, open pit in darkness!",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Manhole",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "missing on Hospital Road",
+        "label": "STREET",
+        "start": 14,
+        "end": 38
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 44,
+        "end": 57
+      },
+      {
+        "text": "dark",
+        "label": "DEFECT",
+        "start": 71,
+        "end": 75
+      }
+    ]
+  },
+  {
+    "id": "GOLD-172",
+    "text": "Broken concrete pavers on footpath along Market Street near Metro Station, tripping elderly.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "footpath along Market Street",
+        "label": "STREET",
+        "start": 26,
+        "end": 54
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 60,
+        "end": 73
+      }
+    ]
+  },
+  {
+    "id": "GOLD-173",
+    "text": "Traffic light controller dead on Hospital Road opposite Town Hall.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Traffic light",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "dead on Hospital Road",
+        "label": "STREET",
+        "start": 25,
+        "end": 46
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 56,
+        "end": 65
+      }
+    ]
+  },
+  {
+    "id": "GOLD-174",
+    "text": "Severe settlement on Market Street causing buses to scrape bottom.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Severe",
+        "label": "SEVERITY_CUE",
+        "start": 0,
+        "end": 6
+      },
+      {
+        "text": "settlement on Market Street",
+        "label": "STREET",
+        "start": 7,
+        "end": 34
+      }
+    ]
+  },
+  {
+    "id": "GOLD-175",
+    "text": "Streetlight dark and flickering near City Hospital on Market Street since last week.",
+    "category": "streetlight_outage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Streetlight",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "dark",
+        "label": "DEFECT",
+        "start": 12,
+        "end": 16
+      },
+      {
+        "text": "flickering",
+        "label": "DEFECT",
+        "start": 21,
+        "end": 31
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 37,
+        "end": 50
+      },
+      {
+        "text": "Market Street",
+        "label": "STREET",
+        "start": 54,
+        "end": 67
+      },
+      {
+        "text": "last week",
+        "label": "DATE/TIME",
+        "start": 74,
+        "end": 83
+      }
+    ]
+  },
+  {
+    "id": "GOLD-176",
+    "text": "Broken concrete pavers on footpath along Market Street near Metro Station, tripping elderly.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "footpath along Market Street",
+        "label": "STREET",
+        "start": 26,
+        "end": 54
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 60,
+        "end": 73
+      }
+    ]
+  },
+  {
+    "id": "GOLD-177",
+    "text": "Deep pothole on Station Road rim broken yesterday evening.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pothole on Station Road",
+        "label": "STREET",
+        "start": 5,
+        "end": 28
+      },
+      {
+        "text": "yesterday",
+        "label": "DATE/TIME",
+        "start": 40,
+        "end": 49
+      }
+    ]
+  },
+  {
+    "id": "GOLD-178",
+    "text": "Cover sunken 15 cm below road surface on Station Road.",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "15 cm below road",
+        "label": "STREET",
+        "start": 13,
+        "end": 29
+      },
+      {
+        "text": "surface on Station Road",
+        "label": "STREET",
+        "start": 30,
+        "end": 53
+      }
+    ]
+  },
+  {
+    "id": "GOLD-179",
+    "text": "Dangerous crater 30 cm deep on Park Avenue near Central Park, accident waiting to happen.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Dangerous",
+        "label": "SEVERITY_CUE",
+        "start": 0,
+        "end": 9
+      },
+      {
+        "text": "crater",
+        "label": "DEFECT",
+        "start": 10,
+        "end": 16
+      },
+      {
+        "text": "30 cm",
+        "label": "MEASUREMENT",
+        "start": 17,
+        "end": 22
+      },
+      {
+        "text": "deep on Park Avenue",
+        "label": "STREET",
+        "start": 23,
+        "end": 42
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 48,
+        "end": 60
+      },
+      {
+        "text": "accident",
+        "label": "SEVERITY_CUE",
+        "start": 62,
+        "end": 70
+      }
+    ]
+  },
+  {
+    "id": "GOLD-180",
+    "text": "Road subsidence and severe asphalt rutting on Station Road near Metro Station.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Road",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "subsidence",
+        "label": "DEFECT",
+        "start": 5,
+        "end": 15
+      },
+      {
+        "text": "severe",
+        "label": "SEVERITY_CUE",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "text": "rutting on Station Road",
+        "label": "STREET",
+        "start": 35,
+        "end": 58
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 64,
+        "end": 77
+      }
+    ]
+  },
+  {
+    "id": "GOLD-181",
+    "text": "Large sinkhole opening up on Market Street opposite Central Park, police barricaded.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "sinkhole",
+        "label": "DEFECT",
+        "start": 6,
+        "end": 14
+      },
+      {
+        "text": "up on Market Street",
+        "label": "STREET",
+        "start": 23,
+        "end": 42
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 52,
+        "end": 64
+      }
+    ]
+  },
+  {
+    "id": "GOLD-182",
+    "text": "Traffic light controller dead on Station Road opposite Metro Station.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Traffic light",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "dead on Station Road",
+        "label": "STREET",
+        "start": 25,
+        "end": 45
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 55,
+        "end": 68
+      }
+    ]
+  },
+  {
+    "id": "GOLD-183",
+    "text": "Sidewalk slab missing exposing 2 foot trench on Park Avenue.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Sidewalk",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "text": "trench on Park Avenue",
+        "label": "STREET",
+        "start": 38,
+        "end": 59
+      }
+    ]
+  },
+  {
+    "id": "GOLD-184",
+    "text": "Pedestrian ramp shattered on Central Cross opposite Central Park.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "shattered on Central Cross",
+        "label": "STREET",
+        "start": 16,
+        "end": 42
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 52,
+        "end": 64
+      }
+    ]
+  },
+  {
+    "id": "GOLD-185",
+    "text": "Huge pipe burst on Hospital Road, houses losing pressure and street submerged.",
+    "category": "pipe_burst",
+    "severity": 4,
+    "urgency": "emergency",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "burst on Hospital Road",
+        "label": "STREET",
+        "start": 10,
+        "end": 32
+      },
+      {
+        "text": "losing pressure and street",
+        "label": "STREET",
+        "start": 41,
+        "end": 67
+      }
+    ]
+  },
+  {
+    "id": "GOLD-186",
+    "text": "Concrete spalling and rebar exposed under Market Street bridge deck.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "spalling",
+        "label": "DEFECT",
+        "start": 9,
+        "end": 17
+      },
+      {
+        "text": "exposed under Market Street",
+        "label": "STREET",
+        "start": 28,
+        "end": 55
+      },
+      {
+        "text": "bridge",
+        "label": "ASSET_TYPE",
+        "start": 56,
+        "end": 62
+      }
+    ]
+  },
+  {
+    "id": "GOLD-187",
+    "text": "Noticeable vibration when trucks pass over Park Avenue overpass.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "pass over Park Avenue",
+        "label": "STREET",
+        "start": 33,
+        "end": 54
+      }
+    ]
+  },
+  {
+    "id": "GOLD-188",
+    "text": "Storm drain completely clogged with trash on Station Road, water logging during rain.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Storm drain",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "clogged",
+        "label": "DEFECT",
+        "start": 23,
+        "end": 30
+      },
+      {
+        "text": "trash on Station Road",
+        "label": "STREET",
+        "start": 36,
+        "end": 57
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 59,
+        "end": 64
+      }
+    ]
+  },
+  {
+    "id": "GOLD-189",
+    "text": "Road subsidence and severe asphalt rutting on Park Avenue near Town Hall.",
+    "category": "road_surface_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Road",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "subsidence",
+        "label": "DEFECT",
+        "start": 5,
+        "end": 15
+      },
+      {
+        "text": "severe",
+        "label": "SEVERITY_CUE",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "text": "rutting on Park Avenue",
+        "label": "STREET",
+        "start": 35,
+        "end": 57
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 63,
+        "end": 72
+      }
+    ]
+  },
+  {
+    "id": "GOLD-190",
+    "text": "Storm drain completely clogged with trash on Park Avenue, water logging during rain.",
+    "category": "drainage_flooding",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Storm drain",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "clogged",
+        "label": "DEFECT",
+        "start": 23,
+        "end": 30
+      },
+      {
+        "text": "trash on Park Avenue",
+        "label": "STREET",
+        "start": 36,
+        "end": 56
+      },
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 58,
+        "end": 63
+      }
+    ]
+  },
+  {
+    "id": "GOLD-191",
+    "text": "Foul black water flooding footpath on Station Road, health hazard for pedestrians.",
+    "category": "sewer_overflow",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 11,
+        "end": 16
+      },
+      {
+        "text": "footpath on Station Road",
+        "label": "STREET",
+        "start": 26,
+        "end": 50
+      },
+      {
+        "text": "hazard",
+        "label": "SEVERITY_CUE",
+        "start": 59,
+        "end": 65
+      }
+    ]
+  },
+  {
+    "id": "GOLD-192",
+    "text": "Pedestrian ramp shattered on Park Avenue opposite Town Hall.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "shattered on Park Avenue",
+        "label": "STREET",
+        "start": 16,
+        "end": 40
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 50,
+        "end": 59
+      }
+    ]
+  },
+  {
+    "id": "GOLD-193",
+    "text": "Concrete spalling and rebar exposed under Market Street bridge deck.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "spalling",
+        "label": "DEFECT",
+        "start": 9,
+        "end": 17
+      },
+      {
+        "text": "exposed under Market Street",
+        "label": "STREET",
+        "start": 28,
+        "end": 55
+      },
+      {
+        "text": "bridge",
+        "label": "ASSET_TYPE",
+        "start": 56,
+        "end": 62
+      }
+    ]
+  },
+  {
+    "id": "GOLD-194",
+    "text": "Damp patch and steady trickle on Market Street opposite Metro Station.",
+    "category": "water_leak",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "trickle on Market Street",
+        "label": "STREET",
+        "start": 22,
+        "end": 46
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 56,
+        "end": 69
+      }
+    ]
+  },
+  {
+    "id": "GOLD-195",
+    "text": "Traffic light controller dead on Hospital Road opposite Town Hall.",
+    "category": "signal_malfunction",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Traffic light",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "dead on Hospital Road",
+        "label": "STREET",
+        "start": 25,
+        "end": 46
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 56,
+        "end": 65
+      }
+    ]
+  },
+  {
+    "id": "GOLD-196",
+    "text": "Cluster of sharp potholes on Central Cross opposite City Hospital.",
+    "category": "pothole",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "potholes on Central Cross",
+        "label": "STREET",
+        "start": 17,
+        "end": 42
+      },
+      {
+        "text": "City Hospital",
+        "label": "LANDMARK",
+        "start": 52,
+        "end": 65
+      }
+    ]
+  },
+  {
+    "id": "GOLD-197",
+    "text": "Manhole cover missing on Hospital Road near Town Hall, open pit in darkness!",
+    "category": "manhole_cover",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "Manhole",
+        "label": "ASSET_TYPE",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "missing on Hospital Road",
+        "label": "STREET",
+        "start": 14,
+        "end": 38
+      },
+      {
+        "text": "Town Hall",
+        "label": "LANDMARK",
+        "start": 44,
+        "end": 53
+      },
+      {
+        "text": "dark",
+        "label": "DEFECT",
+        "start": 67,
+        "end": 71
+      }
+    ]
+  },
+  {
+    "id": "GOLD-198",
+    "text": "Broken concrete pavers on footpath along Central Cross near Central Park, tripping elderly.",
+    "category": "footpath_damage",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "footpath along Central Cross",
+        "label": "STREET",
+        "start": 26,
+        "end": 54
+      },
+      {
+        "text": "Central Park",
+        "label": "LANDMARK",
+        "start": 60,
+        "end": 72
+      }
+    ]
+  },
+  {
+    "id": "GOLD-199",
+    "text": "Foul black water flooding footpath on Central Cross, health hazard for pedestrians.",
+    "category": "sewer_overflow",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "water",
+        "label": "ASSET_TYPE",
+        "start": 11,
+        "end": 16
+      },
+      {
+        "text": "footpath on Central Cross",
+        "label": "STREET",
+        "start": 26,
+        "end": 51
+      },
+      {
+        "text": "hazard",
+        "label": "SEVERITY_CUE",
+        "start": 60,
+        "end": 66
+      }
+    ]
+  },
+  {
+    "id": "GOLD-200",
+    "text": "Expansion joint rattling loudly on Market Street flyover near Metro Station.",
+    "category": "bridge_defect",
+    "severity": 2,
+    "urgency": "routine",
+    "linked_asset_id": null,
+    "entities": [
+      {
+        "text": "loudly on Market Street",
+        "label": "STREET",
+        "start": 25,
+        "end": 48
+      },
+      {
+        "text": "Metro Station",
+        "label": "LANDMARK",
+        "start": 62,
+        "end": 75
+      }
+    ]
+  }
+]

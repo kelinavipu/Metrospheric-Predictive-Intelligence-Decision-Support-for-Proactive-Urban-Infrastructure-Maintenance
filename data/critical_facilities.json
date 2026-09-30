@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Dr. D.Y. Patil Hospital & Medical College",
+    "type": "hospital",
+    "lat": 19.0435,
+    "lon": 73.0245
+  },
+  {
+    "name": "Apollo Hospitals Nerul",
+    "type": "hospital",
+    "lat": 19.041,
+    "lon": 73.0295
+  },
+  {
+    "name": "Terna Speciality Hospital",
+    "type": "hospital",
+    "lat": 19.038,
+    "lon": 73.019
+  },
+  {
+    "name": "Sunshine Hospital",
+    "type": "hospital",
+    "lat": 19.0315,
+    "lon": 73.014
+  },
+  {
+    "name": "City Hospital",
+    "type": "hospital",
+    "lat": 19.0335,
+    "lon": 73.0165
+  },
+  {
+    "name": "Dr. D.Y. Patil Sports Stadium",
+    "type": "sports_stadium",
+    "lat": 19.0445,
+    "lon": 73.027
+  },
+  {
+    "name": "SIES Graduate School of Technology",
+    "type": "college",
+    "lat": 19.042,
+    "lon": 73.022
+  },
+  {
+    "name": "Apeejay School Nerul",
+    "type": "school",
+    "lat": 19.0355,
+    "lon": 73.0115
+  },
+  {
+    "name": "DAV Public School Seawoods",
+    "type": "school",
+    "lat": 19.0185,
+    "lon": 73.015
+  },
+  {
+    "name": "Sterling Institute of Technology",
+    "type": "college",
+    "lat": 19.0285,
+    "lon": 73.009
+  },
+  {
+    "name": "Hotel Yogi Executive",
+    "type": "hotel",
+    "lat": 19.045,
+    "lon": 73.029
+  },
+  {
+    "name": "The Park Navi Mumbai",
+    "type": "hotel",
+    "lat": 19.019,
+    "lon": 73.023
+  },
+  {
+    "name": "Seawoods Grand Central Mall",
+    "type": "commercial",
+    "lat": 19.021,
+    "lon": 73.018
+  },
+  {
+    "name": "Wonders Park",
+    "type": "park",
+    "lat": 19.029,
+    "lon": 73.007
+  },
+  {
+    "name": "Rock Garden Nerul",
+    "type": "park",
+    "lat": 19.031,
+    "lon": 73.0085
+  },
+  {
+    "name": "Jewel of Navi Mumbai",
+    "type": "lake_park",
+    "lat": 19.038,
+    "lon": 73.004
+  },
+  {
+    "name": "Nerul Holding Pond",
+    "type": "water_body",
+    "lat": 19.026,
+    "lon": 73.001
+  },
+  {
+    "name": "Nerul Railway Station",
+    "type": "transit_hub",
+    "lat": 19.0335,
+    "lon": 73.0165
+  },
+  {
+    "name": "Seawoods-Darave Railway Station",
+    "type": "transit_hub",
+    "lat": 19.0215,
+    "lon": 73.0175
+  },
+  {
+    "name": "Juinagar Railway Station",
+    "type": "transit_hub",
+    "lat": 19.052,
+    "lon": 73.017
+  },
+  {
+    "name": "Nerul Gymkhana",
+    "type": "recreation",
+    "lat": 19.036,
+    "lon": 73.008
+  }
+]

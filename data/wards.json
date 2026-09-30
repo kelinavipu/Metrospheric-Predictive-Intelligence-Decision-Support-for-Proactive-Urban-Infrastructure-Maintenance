@@ -1,0 +1,1322 @@
+[
+  {
+    "ward_id": "WARD-01",
+    "name": "Nerul Sector 1 (Sea Breeze)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            72.9957,
+            19.012700000000002
+          ],
+          [
+            73.0015,
+            19.012700000000002
+          ],
+          [
+            73.0015,
+            19.018500000000003
+          ],
+          [
+            72.9957,
+            19.018500000000003
+          ],
+          [
+            72.9957,
+            19.012700000000002
+          ]
+        ]
+      ]
+    },
+    "population": 19296,
+    "vulnerability_index": 0.17
+  },
+  {
+    "ward_id": "WARD-02",
+    "name": "Nerul Sector 2 (Nerul Bus Depot)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.00150000000001,
+            19.012700000000002
+          ],
+          [
+            73.0073,
+            19.012700000000002
+          ],
+          [
+            73.0073,
+            19.018500000000003
+          ],
+          [
+            73.00150000000001,
+            19.018500000000003
+          ],
+          [
+            73.00150000000001,
+            19.012700000000002
+          ]
+        ]
+      ]
+    },
+    "population": 30024,
+    "vulnerability_index": 0.32
+  },
+  {
+    "ward_id": "WARD-03",
+    "name": "Nerul Sector 3 (Residential)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0073,
+            19.012700000000002
+          ],
+          [
+            73.0131,
+            19.012700000000002
+          ],
+          [
+            73.0131,
+            19.018500000000003
+          ],
+          [
+            73.0073,
+            19.018500000000003
+          ],
+          [
+            73.0073,
+            19.012700000000002
+          ]
+        ]
+      ]
+    },
+    "population": 21144,
+    "vulnerability_index": 0.67
+  },
+  {
+    "ward_id": "WARD-04",
+    "name": "Nerul Sector 4 (Nerul West)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.01310000000001,
+            19.012700000000002
+          ],
+          [
+            73.0189,
+            19.012700000000002
+          ],
+          [
+            73.0189,
+            19.018500000000003
+          ],
+          [
+            73.01310000000001,
+            19.018500000000003
+          ],
+          [
+            73.01310000000001,
+            19.012700000000002
+          ]
+        ]
+      ]
+    },
+    "population": 47741,
+    "vulnerability_index": 0.21
+  },
+  {
+    "ward_id": "WARD-05",
+    "name": "Nerul Sector 5 (D.Y. Patil Hospital & SIES)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0189,
+            19.012700000000002
+          ],
+          [
+            73.0247,
+            19.012700000000002
+          ],
+          [
+            73.0247,
+            19.018500000000003
+          ],
+          [
+            73.0189,
+            19.018500000000003
+          ],
+          [
+            73.0189,
+            19.012700000000002
+          ]
+        ]
+      ]
+    },
+    "population": 39651,
+    "vulnerability_index": 0.17
+  },
+  {
+    "ward_id": "WARD-06",
+    "name": "Nerul Sector 6 (West Enclave)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.02470000000001,
+            19.012700000000002
+          ],
+          [
+            73.0305,
+            19.012700000000002
+          ],
+          [
+            73.0305,
+            19.018500000000003
+          ],
+          [
+            73.02470000000001,
+            19.018500000000003
+          ],
+          [
+            73.02470000000001,
+            19.012700000000002
+          ]
+        ]
+      ]
+    },
+    "population": 18140,
+    "vulnerability_index": 0.3
+  },
+  {
+    "ward_id": "WARD-07",
+    "name": "Nerul Sector 7 (D.Y. Patil Stadium)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0305,
+            19.012700000000002
+          ],
+          [
+            73.0363,
+            19.012700000000002
+          ],
+          [
+            73.0363,
+            19.018500000000003
+          ],
+          [
+            73.0305,
+            19.018500000000003
+          ],
+          [
+            73.0305,
+            19.012700000000002
+          ]
+        ]
+      ]
+    },
+    "population": 45118,
+    "vulnerability_index": 0.57
+  },
+  {
+    "ward_id": "WARD-08",
+    "name": "Nerul Sector 8 (Central Residential)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            72.9957,
+            19.0185
+          ],
+          [
+            73.0015,
+            19.0185
+          ],
+          [
+            73.0015,
+            19.0243
+          ],
+          [
+            72.9957,
+            19.0243
+          ],
+          [
+            72.9957,
+            19.0185
+          ]
+        ]
+      ]
+    },
+    "population": 25031,
+    "vulnerability_index": 0.65
+  },
+  {
+    "ward_id": "WARD-09",
+    "name": "Nerul Sector 9 (Nerul West)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.00150000000001,
+            19.0185
+          ],
+          [
+            73.0073,
+            19.0185
+          ],
+          [
+            73.0073,
+            19.0243
+          ],
+          [
+            73.00150000000001,
+            19.0243
+          ],
+          [
+            73.00150000000001,
+            19.0185
+          ]
+        ]
+      ]
+    },
+    "population": 47713,
+    "vulnerability_index": 0.44
+  },
+  {
+    "ward_id": "WARD-10",
+    "name": "Nerul Sector 10 (Market Plaza)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0073,
+            19.0185
+          ],
+          [
+            73.0131,
+            19.0185
+          ],
+          [
+            73.0131,
+            19.0243
+          ],
+          [
+            73.0073,
+            19.0243
+          ],
+          [
+            73.0073,
+            19.0185
+          ]
+        ]
+      ]
+    },
+    "population": 41439,
+    "vulnerability_index": 0.56
+  },
+  {
+    "ward_id": "WARD-11",
+    "name": "Nerul Sector 11 (East Commercial)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.01310000000001,
+            19.0185
+          ],
+          [
+            73.0189,
+            19.0185
+          ],
+          [
+            73.0189,
+            19.0243
+          ],
+          [
+            73.01310000000001,
+            19.0243
+          ],
+          [
+            73.01310000000001,
+            19.0185
+          ]
+        ]
+      ]
+    },
+    "population": 12425,
+    "vulnerability_index": 0.68
+  },
+  {
+    "ward_id": "WARD-12",
+    "name": "Nerul Sector 12 (Residential)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0189,
+            19.0185
+          ],
+          [
+            73.0247,
+            19.0185
+          ],
+          [
+            73.0247,
+            19.0243
+          ],
+          [
+            73.0189,
+            19.0243
+          ],
+          [
+            73.0189,
+            19.0185
+          ]
+        ]
+      ]
+    },
+    "population": 22463,
+    "vulnerability_index": 0.64
+  },
+  {
+    "ward_id": "WARD-13",
+    "name": "Nerul Sector 13 (Transit Link)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.02470000000001,
+            19.0185
+          ],
+          [
+            73.0305,
+            19.0185
+          ],
+          [
+            73.0305,
+            19.0243
+          ],
+          [
+            73.02470000000001,
+            19.0243
+          ],
+          [
+            73.02470000000001,
+            19.0185
+          ]
+        ]
+      ]
+    },
+    "population": 34298,
+    "vulnerability_index": 0.34
+  },
+  {
+    "ward_id": "WARD-14",
+    "name": "Nerul Sector 14 (Green Avenue)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0305,
+            19.0185
+          ],
+          [
+            73.0363,
+            19.0185
+          ],
+          [
+            73.0363,
+            19.0243
+          ],
+          [
+            73.0305,
+            19.0243
+          ],
+          [
+            73.0305,
+            19.0185
+          ]
+        ]
+      ]
+    },
+    "population": 26110,
+    "vulnerability_index": 0.82
+  },
+  {
+    "ward_id": "WARD-15",
+    "name": "Nerul Sector 15 (Apeejay School Corridor)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            72.9957,
+            19.0243
+          ],
+          [
+            73.0015,
+            19.0243
+          ],
+          [
+            73.0015,
+            19.0301
+          ],
+          [
+            72.9957,
+            19.0301
+          ],
+          [
+            72.9957,
+            19.0243
+          ]
+        ]
+      ]
+    },
+    "population": 34059,
+    "vulnerability_index": 0.22
+  },
+  {
+    "ward_id": "WARD-16",
+    "name": "Nerul Sector 16 (Palm Beach Enclave)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.00150000000001,
+            19.0243
+          ],
+          [
+            73.0073,
+            19.0243
+          ],
+          [
+            73.0073,
+            19.0301
+          ],
+          [
+            73.00150000000001,
+            19.0301
+          ],
+          [
+            73.00150000000001,
+            19.0243
+          ]
+        ]
+      ]
+    },
+    "population": 36898,
+    "vulnerability_index": 0.22
+  },
+  {
+    "ward_id": "WARD-17",
+    "name": "Nerul Sector 17 (East High St)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0073,
+            19.0243
+          ],
+          [
+            73.0131,
+            19.0243
+          ],
+          [
+            73.0131,
+            19.0301
+          ],
+          [
+            73.0073,
+            19.0301
+          ],
+          [
+            73.0073,
+            19.0243
+          ]
+        ]
+      ]
+    },
+    "population": 34541,
+    "vulnerability_index": 0.57
+  },
+  {
+    "ward_id": "WARD-18",
+    "name": "Nerul Sector 18 (Palm Beach Water Main)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.01310000000001,
+            19.0243
+          ],
+          [
+            73.0189,
+            19.0243
+          ],
+          [
+            73.0189,
+            19.0301
+          ],
+          [
+            73.01310000000001,
+            19.0301
+          ],
+          [
+            73.01310000000001,
+            19.0243
+          ]
+        ]
+      ]
+    },
+    "population": 14847,
+    "vulnerability_index": 0.66
+  },
+  {
+    "ward_id": "WARD-19",
+    "name": "Nerul Sector 19A (Wonders Park & Rock Garden)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0189,
+            19.0243
+          ],
+          [
+            73.0247,
+            19.0243
+          ],
+          [
+            73.0247,
+            19.0301
+          ],
+          [
+            73.0189,
+            19.0301
+          ],
+          [
+            73.0189,
+            19.0243
+          ]
+        ]
+      ]
+    },
+    "population": 47142,
+    "vulnerability_index": 0.24
+  },
+  {
+    "ward_id": "WARD-20",
+    "name": "Nerul Sector 19 (Shiravane Border)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.02470000000001,
+            19.0243
+          ],
+          [
+            73.0305,
+            19.0243
+          ],
+          [
+            73.0305,
+            19.0301
+          ],
+          [
+            73.02470000000001,
+            19.0301
+          ],
+          [
+            73.02470000000001,
+            19.0243
+          ]
+        ]
+      ]
+    },
+    "population": 36807,
+    "vulnerability_index": 0.21
+  },
+  {
+    "ward_id": "WARD-21",
+    "name": "Nerul Sector 20 (Nerul Station Hub)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0305,
+            19.0243
+          ],
+          [
+            73.0363,
+            19.0243
+          ],
+          [
+            73.0363,
+            19.0301
+          ],
+          [
+            73.0305,
+            19.0301
+          ],
+          [
+            73.0305,
+            19.0243
+          ]
+        ]
+      ]
+    },
+    "population": 31213,
+    "vulnerability_index": 0.73
+  },
+  {
+    "ward_id": "WARD-22",
+    "name": "Nerul Sector 21 (East Market Spine)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            72.9957,
+            19.0301
+          ],
+          [
+            73.0015,
+            19.0301
+          ],
+          [
+            73.0015,
+            19.0359
+          ],
+          [
+            72.9957,
+            19.0359
+          ],
+          [
+            72.9957,
+            19.0301
+          ]
+        ]
+      ]
+    },
+    "population": 35700,
+    "vulnerability_index": 0.55
+  },
+  {
+    "ward_id": "WARD-23",
+    "name": "Nerul Sector 22 (Terna Hospital & College)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.00150000000001,
+            19.0301
+          ],
+          [
+            73.0073,
+            19.0301
+          ],
+          [
+            73.0073,
+            19.0359
+          ],
+          [
+            73.00150000000001,
+            19.0359
+          ],
+          [
+            73.00150000000001,
+            19.0301
+          ]
+        ]
+      ]
+    },
+    "population": 16558,
+    "vulnerability_index": 0.18
+  },
+  {
+    "ward_id": "WARD-24",
+    "name": "Nerul Sector 23 (Apollo Hospitals & Nerul East)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0073,
+            19.0301
+          ],
+          [
+            73.0131,
+            19.0301
+          ],
+          [
+            73.0131,
+            19.0359
+          ],
+          [
+            73.0073,
+            19.0359
+          ],
+          [
+            73.0073,
+            19.0301
+          ]
+        ]
+      ]
+    },
+    "population": 26935,
+    "vulnerability_index": 0.69
+  },
+  {
+    "ward_id": "WARD-25",
+    "name": "Nerul Sector 24 (MIDC Link)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.01310000000001,
+            19.0301
+          ],
+          [
+            73.0189,
+            19.0301
+          ],
+          [
+            73.0189,
+            19.0359
+          ],
+          [
+            73.01310000000001,
+            19.0359
+          ],
+          [
+            73.01310000000001,
+            19.0301
+          ]
+        ]
+      ]
+    },
+    "population": 17229,
+    "vulnerability_index": 0.75
+  },
+  {
+    "ward_id": "WARD-26",
+    "name": "Nerul Sector 25 (East Hillside)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0189,
+            19.0301
+          ],
+          [
+            73.0247,
+            19.0301
+          ],
+          [
+            73.0247,
+            19.0359
+          ],
+          [
+            73.0189,
+            19.0359
+          ],
+          [
+            73.0189,
+            19.0301
+          ]
+        ]
+      ]
+    },
+    "population": 18619,
+    "vulnerability_index": 0.42
+  },
+  {
+    "ward_id": "WARD-27",
+    "name": "Nerul Sector 26 (Parsik View)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.02470000000001,
+            19.0301
+          ],
+          [
+            73.0305,
+            19.0301
+          ],
+          [
+            73.0305,
+            19.0359
+          ],
+          [
+            73.02470000000001,
+            19.0359
+          ],
+          [
+            73.02470000000001,
+            19.0301
+          ]
+        ]
+      ]
+    },
+    "population": 41714,
+    "vulnerability_index": 0.59
+  },
+  {
+    "ward_id": "WARD-28",
+    "name": "Nerul Sector 27 (Shiravane Hill)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0305,
+            19.0301
+          ],
+          [
+            73.0363,
+            19.0301
+          ],
+          [
+            73.0363,
+            19.0359
+          ],
+          [
+            73.0305,
+            19.0359
+          ],
+          [
+            73.0305,
+            19.0301
+          ]
+        ]
+      ]
+    },
+    "population": 35909,
+    "vulnerability_index": 0.26
+  },
+  {
+    "ward_id": "WARD-29",
+    "name": "Nerul Sector 28 (Jewel of Navi Mumbai)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            72.9957,
+            19.0359
+          ],
+          [
+            73.0015,
+            19.0359
+          ],
+          [
+            73.0015,
+            19.041700000000002
+          ],
+          [
+            72.9957,
+            19.041700000000002
+          ],
+          [
+            72.9957,
+            19.0359
+          ]
+        ]
+      ]
+    },
+    "population": 35283,
+    "vulnerability_index": 0.3
+  },
+  {
+    "ward_id": "WARD-30",
+    "name": "Nerul Sector 29 (Nerul East)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.00150000000001,
+            19.0359
+          ],
+          [
+            73.0073,
+            19.0359
+          ],
+          [
+            73.0073,
+            19.041700000000002
+          ],
+          [
+            73.00150000000001,
+            19.041700000000002
+          ],
+          [
+            73.00150000000001,
+            19.0359
+          ]
+        ]
+      ]
+    },
+    "population": 29496,
+    "vulnerability_index": 0.64
+  },
+  {
+    "ward_id": "WARD-31",
+    "name": "Nerul Sector 30 (Transit Corridor)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0073,
+            19.0359
+          ],
+          [
+            73.0131,
+            19.0359
+          ],
+          [
+            73.0131,
+            19.041700000000002
+          ],
+          [
+            73.0073,
+            19.041700000000002
+          ],
+          [
+            73.0073,
+            19.0359
+          ]
+        ]
+      ]
+    },
+    "population": 16679,
+    "vulnerability_index": 0.58
+  },
+  {
+    "ward_id": "WARD-32",
+    "name": "Nerul Sector 34 (Juinagar Border)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.01310000000001,
+            19.0359
+          ],
+          [
+            73.0189,
+            19.0359
+          ],
+          [
+            73.0189,
+            19.041700000000002
+          ],
+          [
+            73.01310000000001,
+            19.041700000000002
+          ],
+          [
+            73.01310000000001,
+            19.0359
+          ]
+        ]
+      ]
+    },
+    "population": 23215,
+    "vulnerability_index": 0.52
+  },
+  {
+    "ward_id": "WARD-33",
+    "name": "Nerul Sector 36 (Marine Enclave)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0189,
+            19.0359
+          ],
+          [
+            73.0247,
+            19.0359
+          ],
+          [
+            73.0247,
+            19.041700000000002
+          ],
+          [
+            73.0189,
+            19.041700000000002
+          ],
+          [
+            73.0189,
+            19.0359
+          ]
+        ]
+      ]
+    },
+    "population": 28043,
+    "vulnerability_index": 0.26
+  },
+  {
+    "ward_id": "WARD-34",
+    "name": "Nerul Sector 40 (Darave Junction)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.02470000000001,
+            19.0359
+          ],
+          [
+            73.0305,
+            19.0359
+          ],
+          [
+            73.0305,
+            19.041700000000002
+          ],
+          [
+            73.02470000000001,
+            19.041700000000002
+          ],
+          [
+            73.02470000000001,
+            19.0359
+          ]
+        ]
+      ]
+    },
+    "population": 36867,
+    "vulnerability_index": 0.34
+  },
+  {
+    "ward_id": "WARD-35",
+    "name": "Nerul Sector 42 (Seawoods North)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0305,
+            19.0359
+          ],
+          [
+            73.0363,
+            19.0359
+          ],
+          [
+            73.0363,
+            19.041700000000002
+          ],
+          [
+            73.0305,
+            19.041700000000002
+          ],
+          [
+            73.0305,
+            19.0359
+          ]
+        ]
+      ]
+    },
+    "population": 26392,
+    "vulnerability_index": 0.63
+  },
+  {
+    "ward_id": "WARD-36",
+    "name": "Nerul Sector 44 (Seawoods Garden)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            72.9957,
+            19.041700000000002
+          ],
+          [
+            73.0015,
+            19.041700000000002
+          ],
+          [
+            73.0015,
+            19.047500000000003
+          ],
+          [
+            72.9957,
+            19.047500000000003
+          ],
+          [
+            72.9957,
+            19.041700000000002
+          ]
+        ]
+      ]
+    },
+    "population": 15665,
+    "vulnerability_index": 0.31
+  },
+  {
+    "ward_id": "WARD-37",
+    "name": "Nerul Sector 46 (NRI Complex Link)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.00150000000001,
+            19.041700000000002
+          ],
+          [
+            73.0073,
+            19.041700000000002
+          ],
+          [
+            73.0073,
+            19.047500000000003
+          ],
+          [
+            73.00150000000001,
+            19.047500000000003
+          ],
+          [
+            73.00150000000001,
+            19.041700000000002
+          ]
+        ]
+      ]
+    },
+    "population": 14103,
+    "vulnerability_index": 0.71
+  },
+  {
+    "ward_id": "WARD-38",
+    "name": "Nerul Sector 48 (Seawoods Grand Central & DAV)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0073,
+            19.041700000000002
+          ],
+          [
+            73.0131,
+            19.041700000000002
+          ],
+          [
+            73.0131,
+            19.047500000000003
+          ],
+          [
+            73.0073,
+            19.047500000000003
+          ],
+          [
+            73.0073,
+            19.041700000000002
+          ]
+        ]
+      ]
+    },
+    "population": 38290,
+    "vulnerability_index": 0.34
+  },
+  {
+    "ward_id": "WARD-39",
+    "name": "Nerul Sector 50 (Seawoods Waterfront)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.01310000000001,
+            19.041700000000002
+          ],
+          [
+            73.0189,
+            19.041700000000002
+          ],
+          [
+            73.0189,
+            19.047500000000003
+          ],
+          [
+            73.01310000000001,
+            19.047500000000003
+          ],
+          [
+            73.01310000000001,
+            19.041700000000002
+          ]
+        ]
+      ]
+    },
+    "population": 25826,
+    "vulnerability_index": 0.79
+  },
+  {
+    "ward_id": "WARD-40",
+    "name": "Nerul Ward 40 (Nerul Arterial Corridor)",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            73.0189,
+            19.041700000000002
+          ],
+          [
+            73.0247,
+            19.041700000000002
+          ],
+          [
+            73.0247,
+            19.047500000000003
+          ],
+          [
+            73.0189,
+            19.047500000000003
+          ],
+          [
+            73.0189,
+            19.041700000000002
+          ]
+        ]
+      ]
+    },
+    "population": 32622,
+    "vulnerability_index": 0.3
+  }
+]

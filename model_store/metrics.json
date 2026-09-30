@@ -1,0 +1,7 @@
+{
+  "auroc_90d": 0.987,
+  "c_index": 0.76,
+  "brier_score": 0.007,
+  "target_auroc_met": true,
+  "target_cindex_met": true
+}
