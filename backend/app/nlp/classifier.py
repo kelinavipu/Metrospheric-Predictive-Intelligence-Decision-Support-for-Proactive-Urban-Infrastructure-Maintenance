@@ -176,12 +176,15 @@ class IssueClassifier:
         elif "expansion joint" in t_lower or "bridge" in t_lower or "flyover" in t_lower:
             cat = "bridge_defect"
             confidence = 0.93
+        elif "black water" in t_lower or "foul sewage" in t_lower or ("backing up" in t_lower and "sewage" in t_lower):
+            cat = "sewer_overflow"
+            confidence = 0.95
+        elif "sewage" in t_lower or "sewer" in t_lower:
+            cat = "sewer_overflow" if any(w in t_lower for w in ["overflow", "black", "backing up", "foul", "spill", "stench"]) else "sewer_blockage"
+            confidence = 0.93
         elif "footpath" in t_lower or "sidewalk" in t_lower or "pavers" in t_lower:
             cat = "footpath_damage"
             confidence = 0.92
-        elif "sewage" in t_lower or "sewer" in t_lower:
-            cat = "sewer_overflow" if "overflow" in t_lower or "black" in t_lower else "sewer_blockage"
-            confidence = 0.91
         elif "storm drain" in t_lower or "culvert" in t_lower or "ponding" in t_lower:
             cat = "drainage_flooding"
             confidence = 0.91
