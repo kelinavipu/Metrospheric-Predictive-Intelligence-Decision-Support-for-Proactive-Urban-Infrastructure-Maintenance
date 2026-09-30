@@ -34,6 +34,28 @@ Built strictly under the **"Matte Clay" Design System** (flat fills, hairline bo
 
 ---
 
+## Model Architecture Diagram
+
+```mermaid
+flowchart TD
+    IN["Citizen Complaint Text<br/>(Hinglish / English)"]
+    
+    IN --> AR["1. Anaphora Resolution Engine<br/>Resolves 'it' -> Defect | 'there' -> Landmark"]
+    
+    AR --> SG["2. Spatial Grounder & Disambiguation<br/>Matches 45+ Nerul Landmarks & Resolves Ambiguities"]
+    AR --> MC["3. Multi-Task Classifier<br/>TF-IDF + Calibrated Multi-Output Model"]
+    AR --> SI["4. Safety & Impact Extractor<br/>Detects Live Wires, Flooding, Hazards"]
+    
+    SG --> OUT["5. Structured Incident Decision"]
+    MC --> OUT
+    SI --> OUT
+    
+    OUT --> TAGS["NLP Color Tagging<br/>🔵 Water | 🩶 Road | 🟡 Electrical | 🟤 Drainage | 🔴 Critical"]
+    OUT --> PIN["Interactive Suggestion Cards<br/>[ Pin This Spot on Map ]"]
+```
+
+---
+
 ## NLP Model Performance & Evaluation Metrics
 
 The Metrospheric NLP and spatial grounding pipeline was evaluated on a curated gold evaluation set (`data/labels/gold_evaluation_set.json`), real Nerul landmark queries, and coreference test scenarios.
